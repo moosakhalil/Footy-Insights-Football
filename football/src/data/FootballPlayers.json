@@ -1,0 +1,704 @@
+{
+    "players": [
+      {
+        "id": 1,
+        "name": "Lionel Messi",
+        "position": "RW",
+        "rating": 91,
+        "imageUrl": "/players/messi.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Cristiano Ronaldo",
+        "position": "ST",
+        "rating": 88,
+        "imageUrl": "/players/ronaldo.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Kylian Mbappé",
+        "position": "ST",
+        "rating": 93,
+        "imageUrl": "/players/mbappe.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Erling Haaland",
+        "position": "ST",
+        "rating": 92,
+        "imageUrl": "/players/haaland.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Kevin De Bruyne",
+        "position": "CAM",
+        "rating": 90,
+        "imageUrl": "/players/debruyne.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Virgil van Dijk",
+        "position": "CB",
+        "rating": 88,
+        "imageUrl": "/players/vandijk.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Neymar Jr",
+        "position": "LW",
+        "rating": 87,
+        "imageUrl": "/players/neymar.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Mohamed Salah",
+        "position": "RW",
+        "rating": 89,
+        "imageUrl": "/players/salah.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Robert Lewandowski",
+        "position": "ST",
+        "rating": 90,
+        "imageUrl": "/players/lewandowski.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Jude Bellingham",
+        "position": "CM",
+        "rating": 91,
+        "imageUrl": "/players/bellingham.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Thibaut Courtois",
+        "position": "GK",
+        "rating": 89,
+        "imageUrl": "/players/courtois.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Harry Kane",
+        "position": "ST",
+        "rating": 89,
+        "imageUrl": "/players/kane.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Karim Benzema",
+        "position": "ST",
+        "rating": 87,
+        "imageUrl": "/players/benzema.jpg"
+      },
+      {
+        "id": 14,
+        "name": "N'Golo Kanté",
+        "position": "CDM",
+        "rating": 85,
+        "imageUrl": "/players/kante.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Joshua Kimmich",
+        "position": "CDM",
+        "rating": 87,
+        "imageUrl": "/players/kimmich.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Sadio Mané",
+        "position": "LW",
+        "rating": 85,
+        "imageUrl": "/players/mane.jpg"
+      },
+      {
+        "id": 17,
+        "name": " Alexander A",
+        "position": "RB",
+        "rating": 88,
+        "imageUrl": "/players/alexandar-arnold.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Alisson Becker",
+        "position": "GK",
+        "rating": 89,
+        "imageUrl": "/players/alisson.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Ederson",
+        "position": "GK",
+        "rating": 88,
+        "imageUrl": "/players/ederson.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Jan Oblak",
+        "position": "GK",
+        "rating": 87,
+        "imageUrl": "/players/oblak.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Manuel Neuer",
+        "position": "GK",
+        "rating": 86,
+        "imageUrl": "/players/neuer.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Gianluigi Donnarumma",
+        "position": "GK",
+        "rating": 88,
+        "imageUrl": "/players/donnarumma.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Rodri",
+        "position": "CDM",
+        "rating": 91,
+        "imageUrl": "/players/rodri.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Casemiro",
+        "position": "CDM",
+        "rating": 85,
+        "imageUrl": "/players/casemiro.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Son Heung-min",
+        "position": "LW",
+        "rating": 87,
+        "imageUrl": "/players/son.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Rúben Dias",
+        "position": "CB",
+        "rating": 88,
+        "imageUrl": "/players/ruben-dias.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Bruno Fernandes",
+        "position": "CAM",
+        "rating": 87,
+        "imageUrl": "/players/fernandes.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Luka Modrić",
+        "position": "CM",
+        "rating": 85,
+        "imageUrl": "/players/modric.jpg"
+      },
+      {
+        "id": 29,
+        "name": "Toni Kroos",
+        "position": "CM",
+        "rating": 85,
+        "imageUrl": "/players/kroos.jpg"
+      },
+      {
+        "id": 30,
+        "name": "Frenkie de Jong",
+        "position": "CM",
+        "rating": 85,
+        "imageUrl": "/players/dejong.jpg"
+      },
+      {
+        "id": 31,
+        "name": "Andrew Robertson",
+        "position": "LB",
+        "rating": 86,
+        "imageUrl": "/players/robertson.jpg"
+      },
+      {
+        "id": 32,
+        "name": "João Cancelo",
+        "position": "RB",
+        "rating": 85,
+        "imageUrl": "/players/cancelo.jpg"
+      },
+      {
+        "id": 33,
+        "name": "Marquinhos",
+        "position": "CB",
+        "rating": 87,
+        "imageUrl": "/players/marquinhos.jpg"
+      },
+      {
+        "id": 34,
+        "name": "Phil Foden",
+        "position": "CAM",
+        "rating": 89,
+        "imageUrl": "/players/foden.jpg"
+      },
+      {
+        "id": 35,
+        "name": "Federico Valverde",
+        "position": "CM",
+        "rating": 88,
+        "imageUrl": "/players/valverde.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Alphonso Davies",
+        "position": "LB",
+        "rating": 86,
+        "imageUrl": "/players/davies.jpg"
+      },
+      {
+        "id": 37,
+        "name": "Jadon Sancho",
+        "position": "RW",
+        "rating": 83,
+        "imageUrl": "/players/sancho.jpg"
+      },
+      {
+        "id": 38,
+        "name": "Raheem Sterling",
+        "position": "LW",
+        "rating": 84,
+        "imageUrl": "/players/sterling.jpg"
+      },
+      {
+        "id": 39,
+        "name": "Bernardo Silva",
+        "position": "CM",
+        "rating": 87,
+        "imageUrl": "/players/bernardo.jpg"
+      },
+      {
+        "id": 40,
+        "name": "Thiago Alcântara",
+        "position": "CM",
+        "rating": 83,
+        "imageUrl": "/players/thiago.jpg"
+      },
+      {
+        "id": 41,
+        "name": "Fabinho",
+        "position": "CDM",
+        "rating": 83,
+        "imageUrl": "/players/fabinho.jpg"
+      },
+      {
+        "id": 42,
+        "name": "Sergio Ramos",
+        "position": "CB",
+        "rating": 82,
+        "imageUrl": "/players/ramos.jpg"
+      },
+      {
+        "id": 43,
+        "name": "Antonio Rüdiger",
+        "position": "CB",
+        "rating": 86,
+        "imageUrl": "/players/rudiger.jpg"
+      },
+      {
+        "id": 44,
+        "name": "Matthijs de Ligt",
+        "position": "CB",
+        "rating": 85,
+        "imageUrl": "/players/deligt.jpg"
+      },
+      {
+        "id": 45,
+        "name": "Achraf Hakimi",
+        "position": "RB",
+        "rating": 85,
+        "imageUrl": "/players/hakimi.jpg"
+      },
+      {
+        "id": 46,
+        "name": "Romelu Lukaku",
+        "position": "ST",
+        "rating": 83,
+        "imageUrl": "/players/lukaku.jpg"
+      },
+      {
+        "id": 47,
+        "name": "Gianluigi Buffon",
+        "position": "GK",
+        "rating": 80,
+        "imageUrl": "/players/buffon.jpg"
+      },
+      {
+        "id": 48,
+        "name": "Luis Suárez",
+        "position": "ST",
+        "rating": 82,
+        "imageUrl": "/players/suarez.jpg"
+      },
+      {
+        "id": 49,
+        "name": "Thomas Müller",
+        "position": "CAM",
+        "rating": 84,
+        "imageUrl": "/players/muller.jpg"
+      },
+      {
+        "id": 50,
+        "name": "Sergio Busquets",
+        "position": "CDM",
+        "rating": 81,
+        "imageUrl": "/players/busquets.jpg"
+      },
+      {
+        "id": 51,
+        "name": "Marco Reus",
+        "position": "CAM",
+        "rating": 82,
+        "imageUrl": "/players/reus.jpg"
+      },
+      {
+        "id": 52,
+        "name": "Leon Goretzka",
+        "position": "CM",
+        "rating": 84,
+        "imageUrl": "/players/goretzka.jpg"
+      },
+      {
+        "id": 53,
+        "name": "Pedri",
+        "position": "CM",
+        "rating": 86,
+        "imageUrl": "/players/pedri.jpg"
+      },
+      {
+        "id": 54,
+        "name": "Gavi",
+        "position": "CM",
+        "rating": 84,
+        "imageUrl": "/players/gavi.jpg"
+      },
+      {
+        "id": 55,
+        "name": "Vinícius Júnior",
+        "position": "LW",
+        "rating": 92,
+        "imageUrl": "/players/vinicius.jpg"
+      },
+      {
+        "id": 56,
+        "name": "Bukayo Saka",
+        "position": "RW",
+        "rating": 88,
+        "imageUrl": "/players/saka.jpg"
+      },
+      {
+        "id": 57,
+        "name": "Riyad Mahrez",
+        "position": "RW",
+        "rating": 84,
+        "imageUrl": "/players/mahrez.jpg"
+      },
+      {
+        "id": 58,
+        "name": "Leroy Sané",
+        "position": "LW",
+        "rating": 85,
+        "imageUrl": "/players/sane.jpg"
+      },
+      {
+        "id": 59,
+        "name": "Kingsley Coman",
+        "position": "RW",
+        "rating": 84,
+        "imageUrl": "/players/coman.jpg"
+      },
+      {
+        "id": 60,
+        "name": "Serge Gnabry",
+        "position": "RW",
+        "rating": 83,
+        "imageUrl": "/players/gnabry.jpg"
+      },
+      {
+        "id": 61,
+        "name": "Aymeric Laporte",
+        "position": "CB",
+        "rating": 84,
+        "imageUrl": "/players/laporte.jpg"
+      },
+      {
+        "id": 62,
+        "name": "John Stones",
+        "position": "CB",
+        "rating": 85,
+        "imageUrl": "/players/stones.jpg"
+      },
+      {
+        "id": 63,
+        "name": "Joao Félix",
+        "position": "CAM",
+        "rating": 83,
+        "imageUrl": "/players/felix.jpg"
+      },
+      {
+        "id": 64,
+        "name": "Ferran Torres",
+        "position": "RW",
+        "rating": 82,
+        "imageUrl": "/players/torres.jpg"
+      },
+      {
+        "id": 65,
+        "name": "Jack Grealish",
+        "position": "LW",
+        "rating": 84,
+        "imageUrl": "/players/grealish.jpg"
+      },
+      {
+        "id": 66,
+        "name": "Mason Mount",
+        "position": "CAM",
+        "rating": 83,
+        "imageUrl": "/players/mount.jpg"
+      },
+      {
+        "id": 67,
+        "name": "Kai Havertz",
+        "position": "CAM",
+        "rating": 84,
+        "imageUrl": "/players/havertz.jpg"
+      },
+      {
+        "id": 68,
+        "name": "Lautaro Martínez",
+        "position": "ST",
+        "rating": 88,
+        "imageUrl": "/players/martinez.jpg"
+      },
+      {
+        "id": 69,
+        "name": "Sergej Milinković-Savić",
+        "position": "CM",
+        "rating": 84,
+        "imageUrl": "/players/milinkovic-savic.jpg"
+      },
+      {
+        "id": 70,
+        "name": "Declan Rice",
+        "position": "CDM",
+        "rating": 87,
+        "imageUrl": "/players/rice.jpg"
+      },
+      {
+        "id": 71,
+        "name": "Marc-André ter Stegen",
+        "position": "GK",
+        "rating": 87,
+        "imageUrl": "/players/ter-stegen.jpg"
+      },
+      {
+        "id": 72,
+        "name": "Keylor Navas",
+        "position": "GK",
+        "rating": 82,
+        "imageUrl": "/players/navas.jpg"
+      },
+      {
+        "id": 73,
+        "name": "David Alaba",
+        "position": "CB",
+        "rating": 85,
+        "imageUrl": "/players/alaba.jpg"
+      },
+      {
+        "id": 74,
+        "name": "Theo Hernández",
+        "position": "LB",
+        "rating": 86,
+        "imageUrl": "/players/hernandez.jpg"
+      },
+      {
+        "id": 75,
+        "name": "Lucas Hernández",
+        "position": "CB",
+        "rating": 84,
+        "imageUrl": "/players/lucas-hernandez.jpg"
+      },
+      {
+        "id": 76,
+        "name": "Reece James",
+        "position": "RB",
+        "rating": 85,
+        "imageUrl": "/players/james.jpg"
+      },
+      {
+        "id": 77,
+        "name": "Éder Militão",
+        "position": "CB",
+        "rating": 85,
+        "imageUrl": "/players/militao.jpg"
+      },
+      {
+        "id": 78,
+        "name": "Nicolò Barella",
+        "position": "CM",
+        "rating": 87,
+        "imageUrl": "/players/barella.jpg"
+      },
+      {
+        "id": 79,
+        "name": "Darwin Núñez",
+        "position": "ST",
+        "rating": 84,
+        "imageUrl": "/players/nunez.jpg"
+      },
+      {
+        "id": 80,
+        "name": "Diogo Jota",
+        "position": "ST",
+        "rating": 85,
+        "imageUrl": "/players/jota.jpg"
+      },
+      {
+        "id": 81,
+        "name": "Luis Díaz",
+        "position": "LW",
+        "rating": 85,
+        "imageUrl": "/players/diaz.jpg"
+      },
+      {
+        "id": 82,
+        "name": "Rúben Neves",
+        "position": "CDM",
+        "rating": 83,
+        "imageUrl": "/players/neves.jpg"
+      },
+      {
+        "id": 83,
+        "name": "Rafael Leão",
+        "position": "LW",
+        "rating": 86,
+        "imageUrl": "/players/leao.jpg"
+      },
+      {
+        "id": 84,
+        "name": "Jules Koundé",
+        "position": "CB",
+        "rating": 85,
+        "imageUrl": "/players/kounde.jpg"
+      },
+      {
+        "id": 85,
+        "name": "Dayot Upamecano",
+        "position": "CB",
+        "rating": 84,
+        "imageUrl": "/players/upamecano.jpg"
+      },
+      {
+        "id": 86,
+        "name": "Emiliano Martínez",
+        "position": "GK",
+        "rating": 88,
+        "imageUrl": "/players/emiliano-martinez.jpg"
+      },
+      {
+        "id": 87,
+        "name": "David De Gea",
+        "position": "GK",
+        "rating": 84,
+        "imageUrl": "/players/degea.jpg"
+      },
+      {
+        "id": 88,
+        "name": "Eduardo Camavinga",
+        "position": "CM",
+        "rating": 85,
+        "imageUrl": "/players/camavinga.jpg"
+      },
+      {
+        "id": 89,
+        "name": "Aurélien Tchouaméni",
+        "position": "CDM",
+        "rating": 85,
+        "imageUrl": "/players/tchouameni.jpg"
+      },
+      {
+        "id": 90,
+        "name": "Nico Williams",
+        "position": "LW",
+        "rating": 85,
+        "imageUrl": "/players/williams.jpg"
+      },
+      {
+        "id": 91,
+        "name": "Alexander Isak",
+        "position": "ST",
+        "rating": 85,
+        "imageUrl": "/players/isak.jpg"
+      },
+      {
+        "id": 92,
+        "name": "Martin Ødegaard",
+        "position": "CAM",
+        "rating": 88,
+        "imageUrl": "/players/odegaard.jpg"
+      },
+      {
+        "id": 93,
+        "name": "Lamine Yamal",
+        "position": "RW",
+        "rating": 86,
+        "imageUrl": "/players/yamal.jpg"
+      },
+      {
+        "id": 94,
+        "name": "Alexis Mac Allister",
+        "position": "CM",
+        "rating": 85,
+        "imageUrl": "/players/macallister.jpg"
+      },
+      {
+        "id": 95,
+        "name": "Gabriel Jesus",
+        "position": "ST",
+        "rating": 83,
+        "imageUrl": "/players/jesus.jpg"
+      },
+      {
+        "id": 96,
+        "name": "William Saliba",
+        "position": "CB",
+        "rating": 87,
+        "imageUrl": "/players/saliba.jpg"
+      },
+      {
+        "id": 97,
+        "name": "Gabriel Martinelli",
+        "position": "LW",
+        "rating": 84,
+        "imageUrl": "/players/martinelli.jpg"
+      },
+      {
+        "id": 98,
+        "name": "Victor Osimhen",
+        "position": "ST",
+        "rating": 87,
+        "imageUrl": "/players/osimhen.jpg"
+      },
+      {
+        "id": 99,
+        "name": "Khvicha Kvaratskhelia",
+        "position": "LW",
+        "rating": 85,
+        "imageUrl": "/players/kvaratskhelia.jpg"
+      },
+      {
+        "id": 100,
+        "name": "Florian Wirtz",
+        "position": "CAM",
+        "rating": 87,
+        "imageUrl": "/players/wirtz.jpg"
+      }
+    ]
+  }

@@ -1,0 +1,751 @@
+/* Theme Variables */
+:root {
+  /* Light Theme */
+  --bg-light: #f8fafc;
+  --card-bg-light: #ffffff;
+  --text-primary-light: #1e293b;
+  --text-secondary-light: #64748b;
+  --border-light: #e2e8f0;
+  --accent-light: #3b82f6;
+  --header-bg-light: #ffffff;
+  --time-badge-bg-light: #e0edff;
+  --time-badge-text-light: #1e40af;
+  --card-shadow-light: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --hover-shadow-light: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --dropdown-bg-light: #ffffff;
+  --page-bg-light: #f1f5f9;
+
+  /* Dark Theme */
+  --bg-dark: #0f172a;
+  --card-bg-dark: #1e293b;
+  --text-primary-dark: #f1f5f9;
+  --text-secondary-dark: #94a3b8;
+  --border-dark: #334155;
+  --accent-dark: #60a5fa;
+  --header-bg-dark: #1e293b;
+  --time-badge-bg-dark: #1e3a8a;
+  --time-badge-text-dark: #93c5fd;
+  --card-shadow-dark: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --hover-shadow-dark: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+  --dropdown-bg-dark: #0f172a;
+  --page-bg-dark: #020617;
+}
+
+/* Base Styles */
+.fixtures-wrapper {
+  width: 100%;
+  min-height: calc(100vh - 80px); /* Adjusted to account for navbar height */
+  padding: 2rem 0;
+  background: var(--bg-primary); /* Use global theme variables */
+  color: var(--text-primary);
+  position: relative;
+  z-index: 1;
+}
+
+/* Use body class for theme instead of data-theme attribute */
+.dark .fixtures-wrapper {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.fixtures-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all content horizontally */
+}
+
+/* Header Styles */
+.fixtures-header {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: var(--card-bg);
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--card-shadow);
+  z-index: 2;
+  position: relative;
+  text-align: center; /* Center the entire header content */
+}
+
+.dark .fixtures-header {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  box-shadow: var(--card-shadow);
+}
+
+.fixtures-header h2 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center; /* Center the heading */
+  color: white;
+  background: linear-gradient(90deg, #38bdf8 0%, #06b6d4 100%);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.dark .fixtures-header h2 {
+  color: white;
+  background: linear-gradient(90deg, #38bdf8 0%, #06b6d4 100%);
+}
+
+/* League Selector */
+.league-selector {
+  width: 100%;
+  position: relative;
+}
+
+.league-dropdown {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.dark .league-dropdown {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+.league-dropdown:hover,
+.league-dropdown:focus {
+  border-color: var(--accent-color);
+}
+
+.dark .league-dropdown:hover,
+.dark .league-dropdown:focus {
+  border-color: var(--accent-color);
+}
+
+/* Grid Layout */
+.fixtures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  padding: 0.5rem;
+  justify-content: center; /* Center the grid */
+  width: 100%; /* Ensure the grid takes full width of the container */
+  max-width: 1200px; /* Match the container max-width */
+}
+
+/* Card Styles */
+.fixture-card {
+  background: var(--card-bg);
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 280px; /* Set minimum height for consistency */
+}
+
+.dark .fixture-card {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  box-shadow: var(--card-shadow);
+}
+
+.fixture-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--hover-shadow);
+}
+
+.dark .fixture-card:hover {
+  box-shadow: var(--hover-shadow);
+}
+
+/* Fixture header */
+.fixture-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--border-color);
+  flex: 0 0 auto; /* Prevent header from stretching */
+  min-height: 120px; /* Ensure consistent header height */
+}
+
+.dark .fixture-header {
+  border-color: var(--border-color);
+}
+
+/* Team name wrapper */
+.team-name-wrapper {
+  width: 100%;
+  text-align: center;
+  padding: 0 0.25rem;
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto; /* Allow height to grow as needed */
+  margin-top: 0.5rem;
+}
+
+/* Team Name Styles */
+.team-name {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000000 !important; /* Ensure text is black in light theme */
+  text-align: center;
+  white-space: normal !important; /* Force wrapping */
+  overflow: visible !important; /* Ensure text is not cut off */
+  text-overflow: initial !important; /* Remove ellipsis */
+  max-width: 100%;
+  padding: 0 0.5rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  min-height: 40px;
+  width: 100%;
+}
+
+.dark .team-name {
+  color: #ffffff !important; /* Ensure text is white in dark theme */
+}
+
+/* Competition info layout improvements */
+.competition-info {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.competition-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2; /* Standard property for compatibility */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4;
+  min-height: 2.8rem; /* Consistent height for league name */
+}
+
+.dark .competition-info h3 {
+  color: #ffffff !important;
+}
+
+/* Improve team spacing */
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* Team logo improvements */
+.team-logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #ffffff; /* White background for logos */
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.dark .team-logo {
+  background: #1a202c; /* Dark background for dark mode */
+  border-color: var(--border-color);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.team-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 0.25rem;
+}
+
+/* Fallback logo improvements */
+.fallback-logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000000;
+  background: #f7fafc; /* Light background for better contrast */
+  border-radius: 50%;
+}
+
+.dark .fallback-logo {
+  color: var(--text-primary);
+  background: #2d3748; /* Darker background for dark mode */
+}
+
+/* Date bar with fixed dimensions */
+.match-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #4a5568;
+  font-weight: 500;
+  background: #f7f9fc;
+  padding: 6px 0;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  height: 36px; /* Fixed height */
+  box-sizing: border-box;
+  border: 1px solid #e2e8f0;
+}
+
+.dark .match-date {
+  color: #a0aec0;
+  background: #2d3748;
+  border-color: #4a5568;
+}
+
+/* Match time badge */
+.match-time-badge {
+  padding: 0.5rem 0.75rem;
+  background: white;
+  color: var(--time-badge-text-light) !important;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  min-width: 80px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  border: 1px solid var(--border-light);
+}
+
+.dark .match-time-badge {
+  background: var(--card-bg-dark);
+  color: var(--time-badge-text-dark) !important;
+  border-color: var(--border-dark);
+}
+
+/* VS separator */
+.match-separator span {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #000000;
+  background: #f0f4f8;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.dark .match-separator span {
+  color: var(--text-primary);
+  background: #2d3748;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Loading and Error States */
+.loading-indicator {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 4rem 0;
+  background: var(--card-bg);
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--card-shadow);
+}
+
+.dark .loading-indicator {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  box-shadow: var(--card-shadow);
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--border-color);
+  border-top: 3px solid var(--accent-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.dark .loading-spinner {
+  border: 3px solid var(--border-color);
+  border-top: 3px solid var(--accent-color);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message,
+.no-fixtures {
+  width: 100%;
+  text-align: center;
+  padding: 4rem 0;
+  background: var(--card-bg);
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--card-shadow);
+  max-width: 800px; /* Add max-width to center the container */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.dark .error-message,
+.dark .no-fixtures {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  box-shadow: var(--card-shadow);
+}
+
+.error-message span,
+.no-fixtures span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.dark .error-message span,
+.dark .no-fixtures span {
+  color: var(--text-primary);
+}
+
+.error-message p,
+.no-fixtures p {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.dark .error-message p,
+.dark .no-fixtures p {
+  color: var(--text-secondary);
+}
+
+/* Teams container improvements */
+.teams-container {
+  padding: 1.5rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1.5rem;
+  align-items: flex-start;
+  flex: 1; /* Fill remaining space */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .fixtures-container {
+    padding: 0 0.5rem;
+  }
+  
+  .fixtures-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .fixtures-header {
+    padding: 1rem;
+  }
+  
+  .team-logo-wrapper {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .team-name {
+    font-size: 0.75rem;
+  }
+  
+  .match-time-badge {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .fixtures-wrapper {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .fixture-card {
+    break-inside: avoid;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+  
+  .match-time-badge {
+    background: white !important;
+    color: black !important;
+    border: 1px solid #ccc !important;
+  }
+}
+
+/* Team logo wrapper */
+.team-logo-wrapper {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  margin-bottom: 0.75rem;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.team:hover .team-logo-wrapper {
+  transform: scale(1.05);
+}
+
+/* Match separator container */
+.match-separator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+/* Search Functionality Styles */
+.fixtures-search-container {
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fixtures-search-input-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.dark .fixtures-search-input-wrapper {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.fixtures-search-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--text-secondary);
+  pointer-events: none;
+}
+
+.fixtures-search-input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.75rem;
+  border: none;
+  background: transparent;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.fixtures-search-input:hover,
+.fixtures-search-input:focus {
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+.dark .fixtures-search-input {
+  color: var(--text-primary);
+  caret-color: var(--accent-color);
+}
+
+.dark .fixtures-search-input:hover,
+.dark .fixtures-search-input:focus {
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+.fixtures-search-type-toggle {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.dark .fixtures-search-type-toggle {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.fixtures-search-type-option {
+  flex: 1;
+  padding: 0.6rem 0.5rem;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.fixtures-search-type-option:not(:last-child) {
+  margin-right: 0;
+}
+
+.dark .fixtures-search-type-option:not(:last-child) {
+  border-right-color: rgba(255, 255, 255, 0.1);
+}
+
+.fixtures-search-type-option.active {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+.dark .fixtures-search-type-option.active {
+  background: var(--accent-color);
+}
+
+/* Clear search button styles */
+.fixtures-clear-search-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.fixtures-clear-search-btn:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--text-primary);
+}
+
+.dark .fixtures-clear-search-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* No results clear search button */
+.fixtures-clear-search-btn.large {
+  padding: 0.7rem 1.5rem;
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  margin-right: 0;
+}
+
+.fixtures-clear-search-btn.large:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.dark .fixtures-clear-search-btn.large {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+}
+
+.dark .fixtures-clear-search-btn.large:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fixtures-search-input:not(:placeholder-shown) + .fixtures-clear-search-btn {
+  display: flex;
+}
+
+.fixtures-no-results {
+  width: 100%;
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+  background: var(--card-bg);
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--card-shadow);
+}
+
+.dark .fixtures-no-results {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.fixtures-no-results span {
+  display: block;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.fixtures-no-results p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .fixtures-search-input {
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem 0.7rem 2.5rem;
+  }
+  
+  .fixtures-search-icon {
+    font-size: 0.9rem;
+    left: 0.8rem;
+  }
+  
+  .fixtures-clear-search {
+    padding: 0.3rem;
+  }
+  
+  .fixtures-search-type-toggle {
+    flex-wrap: wrap;
+  }
+  
+  .fixtures-search-type-option {
+    flex: 1 0 calc(50% - 0.5rem);
+    padding: 0.5rem;
+  }
+}

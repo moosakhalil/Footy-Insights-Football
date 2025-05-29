@@ -1,0 +1,448 @@
+.fb-store-featured-products {
+  padding: 60px 0;
+  background-color: #f8f8f8;
+}
+
+.fb-store-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.fb-store-section-title {
+  
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.fb-store-section-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: #f06;
+}
+
+.fb-store-products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.fb-store-product-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.fb-store-product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fb-store-product-image {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.fb-store-product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.fb-store-product-card:hover .fb-store-product-image img {
+  transform: scale(1.05);
+}
+
+.fb-store-product-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.fb-store-product-tag.fb-store-new {
+  background-color: #00a8ff;
+  color: white;
+}
+
+.fb-store-product-tag.fb-store-discount {
+  background-color: #f06;
+  color: white;
+}
+
+.fb-store-product-actions {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: bottom 0.3s ease;
+}
+
+.fb-store-product-card:hover .fb-store-product-actions {
+  bottom: 0;
+}
+
+.fb-store-action-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.fb-store-action-btn:hover {
+  background-color: #f06;
+  transform: scale(1.2);
+}
+
+.fb-store-product-info {
+  padding: 2rem;
+}
+
+.fb-store-product-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #333;
+  transition: color 0.2s ease;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fb-store-product-card:hover .fb-store-product-name {
+  color: #f06;
+}
+
+.fb-store-product-price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fb-store-current-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f06;
+}
+
+.fb-store-original-price {
+  font-size: 1.1rem;
+  text-decoration: line-through;
+  color: #999;
+}
+
+.fb-store-view-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.fb-store-view-more-btn {
+  padding: 12px 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.fb-store-view-more-btn:hover {
+  background-color: #f06;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 1600px) {
+  .fb-store-products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .fb-store-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .fb-store-products-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .fb-store-product-image {
+    height: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .fb-store-products-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  .fb-store-section-title {
+    font-size: 1.5rem;
+  }
+}
+
+.fb-store-featured-section,
+.fb-store-recommended-section {
+  padding: 0;
+  margin-top: -4px;
+}
+
+.fb-store-featured-title,
+.fb-store-recommended-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.fb-store-featured-title::after,
+.fb-store-recommended-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  border-radius: 2px;
+}
+
+.fb-store-featured-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+  padding: 0 2rem;
+}
+
+.fb-store-featured-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fb-store-featured-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.fb-store-featured-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fb-store-featured-image {
+  position: relative;
+  padding-top: 100%;
+  background: #f8f9fa;
+  overflow: hidden;
+}
+
+.fb-store-featured-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.fb-store-featured-card:hover .fb-store-featured-image img {
+  transform: scale(1.05);
+}
+
+.fb-store-featured-logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fb-store-featured-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.fb-store-featured-info {
+  padding: 1.5rem;
+}
+
+.fb-store-featured-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+
+.fb-store-featured-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2c5282;
+  margin-bottom: 0.5rem;
+}
+
+.fb-store-featured-type {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fb-store-recommended-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.fb-store-recommended-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.fb-store-recommended-card:hover {
+  transform: translateY(-4px);
+}
+
+.fb-store-recommended-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fb-store-recommended-image {
+  position: relative;
+  padding-top: 100%;
+  background: #f8f9fa;
+}
+
+.fb-store-recommended-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.fb-store-recommended-card:hover .fb-store-recommended-image img {
+  transform: scale(1.04);
+}
+
+.fb-store-recommended-logo {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 35px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.fb-store-recommended-info {
+  padding: 1.25rem;
+}
+
+.fb-store-recommended-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+
+.fb-store-recommended-price {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #2c5282;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .fb-store-container {
+    padding: 0 1rem;
+  }
+
+  .fb-store-featured-section,
+  .fb-store-recommended-section {
+    padding: 3rem 0;
+  }
+
+  .fb-store-featured-title,
+  .fb-store-recommended-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .fb-store-featured-grid,
+  .fb-store-recommended-grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fb-store-featured-title,
+  .fb-store-recommended-title {
+    font-size: 1.75rem;
+  }
+
+  .fb-store-featured-grid,
+  .fb-store-recommended-grid {
+    grid-template-columns: 1fr;
+  }
+} 

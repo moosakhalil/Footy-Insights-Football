@@ -1,0 +1,211 @@
+{
+  "clubs": [
+    {
+      "rank": 1,
+      "club": "Al-Ahly",
+      "trophies_won": 123,
+      "country": "Egypt",
+      "founded": 1907,
+      "club_logo": "/clubs/al-ahly.jpg",
+      "country_flag": "https://flagcdn.com/w320/eg.png"
+    },
+    {
+      "rank": 2,
+      "club": "Celtic",
+      "trophies_won": 119,
+      "country": "Scotland",
+      "founded": 1887,
+      "club_logo": "/clubs/celtic.jpg",
+      "country_flag": "https://flagcdn.com/w320/gb-sct.png"
+    },
+    {
+      "rank": 3,
+      "club": "Rangers",
+      "trophies_won": 118,
+      "country": "Scotland",
+      "founded": 1872,
+      "club_logo": "/clubs/rangers.jpg",
+      "country_flag": "https://flagcdn.com/w320/gb-sct.png"
+    },
+    {
+      "rank": 4,
+      "club": "Atlético Peñarol",
+      "trophies_won": 117,
+      "country": "Uruguay",
+      "founded": 1891,
+      "club_logo": "/clubs/penarol.jpg",
+      "country_flag": "https://flagcdn.com/w320/uy.png"
+    },
+    {
+      "rank": 5,
+      "club": "Club Nacional de Football",
+      "trophies_won": 116,
+      "country": "Uruguay",
+      "founded": 1899,
+      "club_logo": "/clubs/nacional.jpg",
+      "country_flag": "https://flagcdn.com/w320/uy.png"
+    },
+    {
+      "rank": 6,
+      "club": "Real Madrid",
+      "trophies_won": 102,
+      "country": "Spain",
+      "founded": 1902,
+      "club_logo": "/clubs/real.jpg",
+      "country_flag": "https://flagcdn.com/w320/es.png"
+    },
+    {
+      "rank": 7,
+      "club": "Barcelona",
+      "trophies_won": 98,
+      "country": "Spain",
+      "founded": 1899,
+      "club_logo": "/clubs/barcelona.jpg",
+      "country_flag": "https://flagcdn.com/w320/es.png"
+    },
+    {
+      "rank": 8,
+      "club": "Benfica",
+      "trophies_won": 85,
+      "country": "Portugal",
+      "founded": 1904,
+      "club_logo": "/clubs/benfica.jpg",
+      "country_flag": "https://flagcdn.com/w320/pt.png"
+    },
+    {
+      "rank": 8,
+      "club": "FC Porto",
+      "trophies_won": 85,
+      "country": "Portugal",
+      "founded": 1893,
+      "club_logo": "/clubs/fc-porto.jpg",
+      "country_flag": "https://flagcdn.com/w320/pt.png"
+    },
+    {
+      "rank": 10,
+      "club": "Al-Faisaly",
+      "trophies_won": 84,
+      "country": "Saudi Arabia",
+      "founded": 1954,
+      "club_logo": "/clubs/al-faislay.jpg",
+      "country_flag": "https://flagcdn.com/w320/sa.png"
+    },
+    {
+      "rank": 11,
+      "club": "Bayern Munich",
+      "trophies_won": 83,
+      "country": "Germany",
+      "founded": 1900,
+      "club_logo": "/clubs/bayren.jpg",
+      "country_flag": "https://flagcdn.com/w320/de.png"
+    },
+    {
+      "rank": 12,
+      "club": "Olympiacos",
+      "trophies_won": 80,
+      "country": "Greece",
+      "founded": 1925,
+      "club_logo": "/clubs/olympiacos.jpg",
+      "country_flag": "https://flagcdn.com/w320/gr.png"
+    },
+    {
+      "rank": 13,
+      "club": "Ajax",
+      "trophies_won": 73,
+      "country": "Netherlands",
+      "founded": 1900,
+      "club_logo": "/clubs/ajax.jpg",
+      "country_flag": "https://flagcdn.com/w320/nl.png"
+    },
+    {
+      "rank": 14,
+      "club": "Juventus",
+      "trophies_won": 71,
+      "country": "Italy",
+      "founded": 1897,
+      "club_logo": "/clubs/juventus.jpg",
+      "country_flag": "https://flagcdn.com/w320/it.png"
+    },
+    {
+      "rank": 15,
+      "club": "Manchester United",
+      "trophies_won": 68,
+      "country": "England",
+      "founded": 1878,
+      "club_logo": "/clubs/MU.jpg",
+      "country_flag": "https://flagcdn.com/w320/gb-eng.png"
+    },
+    {
+      "rank": 15,
+      "club": "Dinamo Zagreb",
+      "trophies_won": 68,
+      "country": "Croatia",
+      "founded": 1945,
+      "club_logo": "/clubs/dinamo-zagreb.jpg",
+      "country_flag": "https://flagcdn.com/w320/hr.png"
+    },
+    {
+      "rank": 17,
+      "club": "Liverpool",
+      "trophies_won": 67,
+      "country": "England",
+      "founded": 1892,
+      "club_logo": "/clubs/liverpool.jpg",
+      "country_flag": "https://flagcdn.com/w320/gb-eng.png"
+    },
+    {
+      "rank": 18,
+      "club": "Anderlecht",
+      "trophies_won": 64,
+      "country": "Belgium",
+      "founded": 1908,
+      "club_logo": "/clubs/anderlecht.jpg",
+      "country_flag": "https://flagcdn.com/w320/be.png"
+    },
+    {
+      "rank": 19,
+      "club": "FCSB (Steaua Bucharest)",
+      "trophies_won": 62,
+      "country": "Romania",
+      "founded": 1947,
+      "club_logo": "/clubs/Fcsb.jpg",
+      "country_flag": "https://flagcdn.com/w320/ro.png"
+    },
+    {
+      "rank": 20,
+      "club": "Boca Juniors",
+      "trophies_won": 61,
+      "country": "Argentina",
+      "founded": 1905,
+      "club_logo": "/clubs/juniors.jpg",
+      "country_flag": "https://flagcdn.com/w320/ar.png"
+    },
+    {
+      "rank": 20,
+      "club": "Galatasaray",
+      "trophies_won": 61,
+      "country": "Turkey",
+      "founded": 1905,
+      "club_logo": "/clubs/galatasary.jpg",
+      "country_flag": "https://flagcdn.com/w320/tr.png"
+    },
+    {
+      "rank": 22,
+      "club": "Zamalek",
+      "trophies_won": 58,
+      "country": "Egypt",
+      "founded": 1911,
+      "club_logo": "/clubs/zamalek.jpg",
+      "country_flag": "https://flagcdn.com/w320/eg.png"
+    },
+    {
+      "rank": 23,
+      "club": "CSKA Sofia",
+      "trophies_won": 57,
+      "country": "Bulgaria",
+      "founded": 1948,
+      "club_logo": "/clubs/cska-sofia.jpg",
+      "country_flag": "https://flagcdn.com/w320/bg.png"
+    }
+  ]
+}

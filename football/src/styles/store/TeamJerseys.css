@@ -1,0 +1,633 @@
+/* TeamJerseys.css - Main stylesheet for the football store jersey section */
+
+/* Base container styles */
+.fb-store-container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+/* Header section */
+.fb-store-header-section {
+  padding: 40px 0;
+}
+
+.fb-store-header-content-with-image {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.fb-store-header-content {
+  flex: 1;
+}
+
+.fb-store-header-image-cover {
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fb-store-header-image-cover img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.fb-store-header-image-cover img:hover {
+  transform: scale(1.02);
+}
+
+.fb-store-main-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #222;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.fb-store-main-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+  border-radius: 2px;
+}
+
+.fb-store-see-all-btn {
+  display: inline-block;
+  font-weight: 600;
+  color: #1e3a8a;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: color 0.2s;
+}
+
+.fb-store-see-all-btn:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.fb-store-intro-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+/* Interest links section */
+.fb-store-interests {
+  background-color: #f8fafc;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.fb-store-interests p {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.fb-store-interest-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.fb-store-interest-link {
+  display: inline-block;
+  padding: 6px 14px;
+  background-color: #e0e7ff;
+  color: #1e3a8a;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.fb-store-interest-link:hover {
+  background-color: #1e3a8a;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Search box */
+.fb-store-search-box {
+  background: linear-gradient(135deg, #334155, #0f172a);
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.fb-store-search-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.fb-store-filters-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.fb-store-full-width {
+  grid-column: span 3;
+}
+
+.fb-store-select {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #4b5563;
+  background-color: #1f2937;
+  color: white;
+  font-size: 15px;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 12px) center;
+  background-size: 12px;
+}
+
+.fb-store-select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+.fb-store-search-btn {
+  background-color: #ffffff;
+  color: #0f172a;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+}
+
+.fb-store-search-btn:hover {
+  background-color: #f3f4f6;
+  transform: translateY(-2px);
+}
+
+/* Main content section with filters and products */
+.fb-store-filters-section {
+  display: flex;
+  gap: 2rem;
+  margin: 40px 0;
+  padding: 0 2rem;
+}
+
+/* Filter sidebar */
+.fb-store-filter-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  height: fit-content;
+  border: 1px solid #e2e8f0;
+  position: sticky;
+  top: 20px;
+}
+
+.fb-store-filter-category {
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.fb-store-filter-title {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+  background-color: #f8fafc;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fb-store-arrow {
+  font-size: 12px;
+  transition: transform 0.3s ease;
+}
+
+.fb-store-filter-title:hover .fb-store-arrow {
+  transform: rotate(180deg);
+}
+
+.fb-store-filter-options {
+  padding: 10px 15px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.fb-store-filter-options::-webkit-scrollbar {
+  width: 6px;
+}
+
+.fb-store-filter-options::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 3px;
+}
+
+.fb-store-league-section {
+  margin-bottom: 15px;
+}
+
+.fb-store-league-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.fb-store-filter-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.fb-store-filter-option input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  accent-color: #2563eb;
+  cursor: pointer;
+}
+
+.fb-store-filter-text {
+  font-size: 14px;
+  color: #4b5563;
+  display: flex;
+  align-items: center;
+}
+
+.fb-store-filter-team-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+/* Size selector grid */
+.fb-store-filter-size-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding: 10px 15px;
+}
+
+.fb-store-size-btn {
+  padding: 8px 0;
+  background-color: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.fb-store-size-btn:hover {
+  background-color: #e0e7ff;
+  border-color: #c7d2fe;
+}
+
+.fb-store-size-btn-active {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+/* Products section */
+.fb-store-products-section {
+  flex: 1;
+  min-width: 0; /* Prevent flex item from overflowing */
+}
+
+.fb-store-sorting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.fb-store-sort-text {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.fb-store-sort-select {
+  padding: 8px 30px 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  background-color: white;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%234b5563' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 8px) center;
+  background-size: 12px;
+}
+
+.fb-store-total-articles {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Product grid */
+.fb-store-products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.fb-store-product-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fb-store-product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.fb-store-product-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.fb-store-product-image {
+  position: relative;
+  padding-top: 100%;
+  background: #f8f9fa;
+  overflow: hidden;
+}
+
+.fb-store-product-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.fb-store-product-card:hover .fb-store-product-image img {
+  transform: scale(1.05);
+}
+
+.fb-store-team-logo {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 6px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid #e2e8f0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fb-store-team-logo img {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+.fb-store-product-info {
+  padding: 2rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fb-store-product-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+
+.fb-store-product-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c5282;
+  margin-bottom: 1rem;
+}
+
+.fb-store-product-type {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Pagination */
+.fb-store-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.fb-store-pagination-btn {
+  padding: 8px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.fb-store-pagination-btn:hover:not(.disabled) {
+  background-color: #1d4ed8;
+}
+
+.fb-store-pagination-btn.disabled {
+  background-color: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.fb-store-pagination-info {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* Featured Teams Section */
+.fb-store-featured-teams-section {
+  padding: 40px 0;
+  background-color: #f8fafc;
+  border-radius: 10px;
+  margin: 50px 0;
+}
+
+.fb-store-section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #1f2937;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.fb-store-section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #1e3a8a);
+  border-radius: 2px;
+}
+
+.fb-store-featured-teams-grid {
+  padding: 0 20px;
+}
+
+.fb-store-league-container {
+  margin-bottom: 40px;
+}
+
+.fb-store-league-heading {
+  font-size: 20px;
+  color: #1f2937;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 4px solid #3b82f6;
+}
+
+.fb-store-teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.fb-store-team-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 15px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fb-store-team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.fb-store-team-logo-container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.fb-store-team-logo-large {
+  max-width: 70px;
+  max-height: 70px;
+  transition: transform 0.3s ease;
+}
+
+.fb-store-team-card:hover .fb-store-team-logo-large {
+  transform: scale(1.1);
+}
+
+.fb-store-team-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+/* Responsive styles */
+@media (max-width: 1600px) {
+  .fb-store-products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .fb-store-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .fb-store-filters-section {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .fb-store-filter-sidebar {
+    width: 100%;
+    position: static;
+  }
+
+  .fb-store-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fb-store-products-grid {
+    grid-template-columns: 1fr;
+  }
+}

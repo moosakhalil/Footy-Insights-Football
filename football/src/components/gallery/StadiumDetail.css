@@ -1,0 +1,434 @@
+.stadium-detail-page {
+  min-height: 100vh;
+  padding: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  background-color: rgba(15, 23, 42, 0.85);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.back-button:hover {
+  transform: translateY(-2px);
+  background-color: rgba(96, 165, 250, 0.2);
+  border-color: #60a5fa;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.stadium-detail-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(15, 23, 42, 0.85);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.5s ease;
+}
+
+.stadium-detail-header {
+  margin-bottom: 2rem;
+}
+
+.stadium-title-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.stadium-detail-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.stadium-detail-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(to right, #60a5fa, #3b82f6);
+  border-radius: 2px;
+}
+
+.stadium-detail-team-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 3px solid white;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.stadium-detail-team-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.stadium-detail-team-logos {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.team-logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.team-logo-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  background-color: white;
+  padding: 3px;
+  object-fit: contain;
+}
+
+.team-name {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+.stadium-detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  padding: 6px 12px;
+  background: rgba(96, 165, 250, 0.1);
+  border-radius: 20px;
+  border: 1px solid rgba(96, 165, 250, 0.2);
+}
+
+.meta-item svg {
+  color: #60a5fa;
+}
+
+.stadium-detail-info {
+  margin-top: 2.5rem;
+}
+
+.stadium-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.stadium-description-section {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.stadium-description-section h2 {
+  font-size: 1.8rem;
+  margin: 0 0 1.5rem 0;
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.stadium-description-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(to right, #60a5fa, #3b82f6);
+  border-radius: 2px;
+}
+
+.stadium-description-section p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+.loading-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  font-size: 1.2rem;
+  margin: 40px 0;
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+.stadium-not-found {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: rgba(15, 23, 42, 0.85);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.stadium-not-found h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  color: white;
+}
+
+.stadium-not-found p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.stadium-btn {
+  width: auto;
+  min-width: 160px;
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: white;
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+  margin: 0 auto;
+}
+
+.stadium-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.5);
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .stadium-detail-page {
+    padding: 1.5rem;
+  }
+  
+  .stadium-detail-content {
+    padding: 1.5rem;
+  }
+  
+  .stadium-detail-heading {
+    font-size: 2rem;
+  }
+  
+  .stadium-stats {
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+  
+  .stat-value {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .stadium-detail-page {
+    padding: 1rem;
+  }
+
+  .stadium-detail-content {
+    padding: 1.2rem;
+  }
+
+  .stadium-detail-heading {
+    font-size: 1.8rem;
+  }
+
+  .stadium-detail-meta {
+    gap: 1rem;
+  }
+
+  .meta-item {
+    font-size: 0.9rem;
+    padding: 4px 10px;
+  }
+
+  .stadium-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.2rem;
+  }
+
+  .stat-value {
+    font-size: 1.4rem;
+  }
+
+  .stadium-description-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .stadium-description-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .stadium-detail-page {
+    padding: 0.8rem;
+  }
+
+  .back-button {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1.5rem;
+  }
+
+  .stadium-detail-content {
+    padding: 1rem;
+  }
+
+  .stadium-detail-heading {
+    font-size: 1.5rem;
+  }
+
+  .stadium-detail-heading::after {
+    width: 80px;
+    height: 3px;
+  }
+
+  .stadium-detail-team-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stadium-detail-meta {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .meta-item {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .stadium-stats {
+    padding: 1rem;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+  }
+
+  .stat-value {
+    font-size: 1.2rem;
+  }
+
+  .stadium-description-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .stadium-description-section p {
+    font-size: 0.95rem;
+  }
+
+  .stadium-not-found h2 {
+    font-size: 1.5rem;
+  }
+
+  .stadium-not-found p {
+    font-size: 1rem;
+  }
+} 

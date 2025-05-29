@@ -1,0 +1,218 @@
+.fb-store-featured-details {
+  padding: 1rem 0;
+  background-color: #fff;
+}
+
+.fb-store-featured-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.fb-store-featured-details-image {
+  position: relative;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.fb-store-featured-details-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.fb-store-featured-details-logo {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fb-store-featured-details-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.fb-store-featured-details-info {
+  padding: 1rem 0;
+}
+
+.fb-store-featured-details-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.fb-store-featured-details-price {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffb700;
+  margin-bottom: 1.5rem;
+}
+
+.fb-store-featured-details-description {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.fb-store-featured-details-attributes {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.fb-store-featured-details-color,
+.fb-store-featured-details-material {
+  margin-bottom: 1rem;
+}
+
+.attribute-label {
+  font-weight: 600;
+  color: #333;
+  margin-right: 0.5rem;
+}
+
+.attribute-value {
+  color: #666;
+}
+
+.fb-store-featured-details-sizes {
+  margin-bottom: 2rem;
+}
+
+.fb-store-featured-details-sizes h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.fb-store-featured-details-size-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 0.75rem;
+}
+
+.size-button {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.size-button:hover {
+  border-color: #ffb700;
+  color: #ffb700;
+}
+
+.size-button.selected {
+  background-color: #ffb700;
+  border-color: #ffb700;
+  color: #fff;
+}
+
+.fb-store-featured-details-add-to-cart {
+  width: 100%;
+  padding: 1rem;
+  background-color: #ffb700;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+.fb-store-featured-details-add-to-cart:hover {
+  background-color: #ffc730;
+  transform: translateY(-2px);
+}
+
+.fb-store-featured-details-type {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.fb-store-featured-details-error {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.fb-store-featured-details-error h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.fb-store-featured-details-error button {
+  padding: 0.75rem 1.5rem;
+  background-color: #ffb700;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.fb-store-featured-details-error button:hover {
+  background-color: #ffc730;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 1024px) {
+  .fb-store-featured-details-grid {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .fb-store-featured-details {
+    padding: 2rem 0;
+  }
+
+  .fb-store-featured-details-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .fb-store-featured-details-name {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fb-store-featured-details-name {
+    font-size: 1.5rem;
+  }
+
+  .fb-store-featured-details-price {
+    font-size: 1.5rem;
+  }
+
+  .fb-store-featured-details-size-grid {
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  }
+} 

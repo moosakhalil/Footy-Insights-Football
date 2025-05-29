@@ -1,0 +1,335 @@
+[
+  {
+    "title": "Maradona's Hand of God",
+    "year": 1986,
+    "event": "FIFA World Cup Quarterfinal",
+    "player": "Diego Maradona",
+    "team": "Argentina",
+    "opponent": "England",
+    "image_url": "/historic/1986_maradona.jpg",
+    "description": "In the quarterfinal match against England, Maradona scored by punching the ball into the net with his hand, which went unnoticed by the referee. Minutes later, he scored the 'Goal of the Century' after dribbling past five English players. Argentina won 2-1 and eventually the World Cup."
+  },
+  {
+    "title": "Zidane Headbutt",
+    "year": 2006,
+    "event": "FIFA World Cup Final",
+    "player": "Zinedine Zidane",
+    "team": "France",
+    "opponent": "Italy",
+    "image_url": "/historic/zidane_head.jpg",
+    "description": "In his final professional match, Zidane headbutted Marco Materazzi in the chest after verbal provocation during extra time. He was sent off with a red card, leaving France with 10 men. Italy eventually won on penalties, marking a shocking end to Zidane's illustrious career."
+  },
+  {
+    "title": "Agüero's 93:20 Goal",
+    "year": 2012,
+    "event": "Premier League Final Day",
+    "player": "Sergio Agüero",
+    "team": "Manchester City",
+    "opponent": "Queens Park Rangers",
+    "image_url": "/historic/ageuro_goal.jpg",
+    "description": "With Manchester City needing a win to secure their first league title in 44 years, Agüero scored in the 94th minute (93:20 on the clock) to win 3-2 against QPR. The goal dramatically snatched the title from rivals Manchester United, creating one of the most memorable moments in Premier League history."
+  },
+  {
+    "title": "The Miracle of Istanbul",
+    "year": 2005,
+    "event": "UEFA Champions League Final",
+    "player": "Steven Gerrard",
+    "team": "Liverpool",
+    "opponent": "AC Milan",
+    "image_url": "/historic/miracle.jpg",
+    "description": "Liverpool came back from 3-0 down at halftime to draw 3-3 against AC Milan, with Steven Gerrard inspiring the comeback. Liverpool then won on penalties to claim their fifth European Cup in one of the greatest comebacks in football history."
+  },
+  {
+    "title": "Solskjaer's Last-Minute Winner",
+    "year": 1999,
+    "event": "UEFA Champions League Final",
+    "player": "Ole Gunnar Solskjaer",
+    "team": "Manchester United",
+    "opponent": "Bayern Munich",
+    "image_url": "/historic/last_minute.jpg",
+    "description": "Manchester United scored twice in injury time to overturn Bayern Munich's 1-0 lead. Solskjaer poked home the winner in the 93rd minute, completing the treble for United in the most dramatic fashion possible and leaving Bayern players collapsed on the pitch in disbelief."
+  },
+  {
+    "title": "Messi's Solo Goal Against Real Madrid",
+    "year": 2011,
+    "event": "UEFA Champions League Semifinal",
+    "player": "Lionel Messi",
+    "team": "Barcelona",
+    "opponent": "Real Madrid",
+    "image_url": "/historic/mesii_goal.jpg",
+    "description": "In the intense El Clásico Champions League semifinal, Messi dribbled past five Real Madrid players before slotting past Iker Casillas. This individual brilliance in such a high-stakes match showcased his extraordinary talent during Barcelona's era of dominance."
+  },
+  {
+    "title": "The Cruyff Turn",
+    "year": 1974,
+    "event": "FIFA World Cup Group Stage",
+    "player": "Johan Cruyff",
+    "team": "Netherlands",
+    "opponent": "Sweden",
+    "image_url": "/historic/turn.jpg",
+    "description": "Johan Cruyff introduced the world to the 'Cruyff Turn' against Sweden, when he feinted a pass before dragging the ball behind his standing leg and turning 180 degrees to move away from the defender. This innovative skill move has since become an essential part of football's technical repertoire."
+  },
+  {
+    "title": "Ronaldo's Bicycle Kick vs. Juventus",
+    "year": 2018,
+    "event": "UEFA Champions League Quarterfinal",
+    "player": "Cristiano Ronaldo",
+    "team": "Real Madrid",
+    "opponent": "Juventus",
+    "image_url": "/historic/ronaldo_bicycle.jpg",
+    "description": "Ronaldo scored an astonishing overhead kick that even had Juventus fans standing to applaud. Rising nearly 7 feet in the air, he connected perfectly with a cross to score one of the greatest goals in Champions League history, showcasing his extraordinary athleticism and technique."
+  },
+  {
+    "title": "Iniesta's World Cup Winning Goal",
+    "year": 2010,
+    "event": "FIFA World Cup Final",
+    "player": "Andrés Iniesta",
+    "team": "Spain",
+    "opponent": "Netherlands",
+    "image_url": "/historic/inesta_win.jpg",
+    "description": "In the 116th minute of an intense and physical final, Iniesta scored the only goal to give Spain their first World Cup trophy. After scoring, he removed his jersey to reveal a tribute to Dani Jarque, a friend who had died of a heart attack the previous year."
+  },
+  {
+    "title": "Germany 7-1 Brazil",
+    "year": 2014,
+    "event": "FIFA World Cup Semifinal",
+    "player": "Thomas Müller",
+    "team": "Germany",
+    "opponent": "Brazil",
+    "image_url": "/historic/germany_win.jpg",
+    "description": "In one of the most shocking results in World Cup history, Germany demolished host nation Brazil 7-1 in the semifinal. The Germans scored five goals in the first 30 minutes, with Brazil's defense completely falling apart in front of their home crowd in what became known as the 'Mineirazo'."
+  },
+  {
+    "title": "Ronaldinho's Toe-Poke Goal",
+    "year": 2005,
+    "event": "UEFA Champions League",
+    "player": "Ronaldinho",
+    "team": "Barcelona",
+    "opponent": "Chelsea",
+    "image_url": "/historic/ronaldinho_toe.jpg",
+    "description": "Ronaldinho produced a moment of pure magic against Chelsea, using a dancing feint followed by a toe-poke finish that caught goalkeeper Petr Čech completely off guard. The goal showcased his extraordinary technical ability and innovation that helped revolutionize modern attacking play."
+  },
+  {
+    "title": "Leicester City Premier League Champions",
+    "year": 2016,
+    "event": "Premier League Season",
+    "player": "Jamie Vardy",
+    "team": "Leicester City",
+    "opponent": "Various",
+    "image_url": "/historic/leicester_win.jpg",
+    "description": "Starting the season as 5000-1 outsiders, Leicester City defied all expectations to win the Premier League. Led by Claudio Ranieri and powered by Jamie Vardy's record-breaking scoring streak, their triumph represents arguably the greatest underdog story in sports history."
+  },
+  {
+    "title": "Roberto Baggio's Penalty Miss",
+    "year": 1994,
+    "event": "FIFA World Cup Final",
+    "player": "Roberto Baggio",
+    "team": "Italy",
+    "opponent": "Brazil",
+    "image_url": "/historic/baggio_penalty.jpg",
+    "description": "After carrying Italy to the final with crucial goals, Baggio missed the decisive penalty in the shootout against Brazil, skying his attempt over the bar. The enduring image of the dejected 'Divine Ponytail' standing with hands on hips became one of football's most poignant moments of heartbreak."
+  },
+  {
+    "title": "The 'Panenka' Penalty",
+    "year": 1976,
+    "event": "UEFA European Championship Final",
+    "player": "Antonín Panenka",
+    "team": "Czechoslovakia",
+    "opponent": "West Germany",
+    "image_url": "/historic/panenka.jpg",
+    "description": "Antonín Panenka executed the first-ever chipped penalty in the shootout of the Euro final, gently floating the ball down the middle as the goalkeeper dived away. This audacious technique in such a high-pressure moment has since been copied by many players and is now known universally as the 'Panenka'."
+  },
+  {
+    "title": "Maracanazo",
+    "year": 1950,
+    "event": "FIFA World Cup Final",
+    "player": "Alcides Ghiggia",
+    "team": "Uruguay",
+    "opponent": "Brazil",
+    "image_url": "/historic/maracanzo.jpg",
+    "description": "In the decisive match of the 1950 World Cup, Uruguay stunned hosts Brazil with a 2-1 victory at the Maracanã Stadium. Ghiggia scored the winning goal, silencing almost 200,000 spectators in what became known as the 'Maracanazo' (The Maracanã Blow), a national tragedy in Brazilian football history."
+  },
+  {
+    "title": "Gerrard's Istanbul Comeback Goal",
+    "year": 2005,
+    "event": "UEFA Champions League Final",
+    "player": "Steven Gerrard",
+    "team": "Liverpool",
+    "opponent": "AC Milan",
+    "image_url": "/historic/gerrad_istanbul.jpg",
+    "description": "With Liverpool 3-0 down at halftime, captain Steven Gerrard scored a powerful header to begin the comeback. His goal and subsequent rallying of teammates sparked one of football's greatest comebacks, showing extraordinary leadership in the face of seemingly impossible odds."
+  },
+  {
+    "title": "Arsenal's Invincibles Season",
+    "year": 2004,
+    "event": "Premier League Season",
+    "player": "Thierry Henry",
+    "team": "Arsenal",
+    "opponent": "Various",
+    "image_url": "/historic/arsenal_invincible.jpg",
+    "description": "Arsène Wenger's Arsenal became the first team in the modern Premier League era to go an entire season unbeaten (26 wins, 12 draws). Led by Thierry Henry's brilliance, the 'Invincibles' created a legacy of attacking excellence and resilience that has yet to be matched in English football."
+  },
+  {
+    "title": "Beckham's Halfway Line Goal",
+    "year": 1996,
+    "event": "Premier League Match",
+    "player": "David Beckham",
+    "team": "Manchester United",
+    "opponent": "Wimbledon",
+    "image_url": "/historic/beckham_halfway.jpg",
+    "description": "A young David Beckham announced himself to the world by scoring from the halfway line on the opening day of the 1996-97 season. Spotting the goalkeeper off his line, Beckham's audacious lob from inside his own half demonstrated the vision and technique that would define his career."
+  },
+  {
+    "title": "La Remontada",
+    "year": 2017,
+    "event": "UEFA Champions League Round of 16",
+    "player": "Neymar",
+    "team": "Barcelona",
+    "opponent": "Paris Saint-Germain",
+    "image_url": "/historic/neymar_goal.jpg",
+    "description": "After losing the first leg 4-0, Barcelona completed the greatest comeback in Champions League history by winning 6-1 at home. Needing three goals in the final minutes, Neymar scored twice before setting up Sergi Roberto's 95th-minute winner in an almost supernatural display of determination."
+  },
+  {
+    "title": "Messi's World Cup Win",
+    "year": 2022,
+    "event": "FIFA World Cup Final",
+    "player": "Lionel Messi",
+    "team": "Argentina",
+    "opponent": "France",
+    "image_url": "/historic/messi_final.jpg",
+    "description": "In an extraordinary final against France, Messi scored twice as Argentina eventually won on penalties after a 3-3 draw. Messi's first World Cup triumph completed his trophy collection and for many cemented his status as the greatest player of all time after years of heartbreak with the national team."
+  },
+  {
+    "title": "Italy's Last-Minute Winner vs Germany",
+    "year": 2006,
+    "event": "FIFA World Cup Semifinal",
+    "player": "Fabio Grosso",
+    "team": "Italy",
+    "opponent": "Germany",
+    "image_url": "/historic/italy_win.jpg",
+    "description": "In the 119th minute of extra time, Fabio Grosso curled in a beautiful shot to break the deadlock against hosts Germany. Alessandro Del Piero added another goal moments later, sending Italy to the final which they would win. The dramatic late goals silenced the German crowd in Dortmund."
+  },
+  {
+    "title": "Ronaldo's World Cup Final Redemption",
+    "year": 2002,
+    "event": "FIFA World Cup Final",
+    "player": "Ronaldo Nazário",
+    "team": "Brazil",
+    "opponent": "Germany",
+    "image_url": "/historic/ronaldo_redemption.jpg",
+    "description": "Four years after suffering a mysterious seizure before the 1998 final defeat, Ronaldo scored both goals in Brazil's 2-0 win over Germany. His redemption story was complete as he finished as the tournament's top scorer with eight goals, showcasing his extraordinary recovery from career-threatening knee injuries."
+  },
+  {
+    "title": "The Hand of Frank",
+    "year": 2009,
+    "event": "World Cup Qualification Playoff",
+    "player": "Thierry Henry",
+    "team": "France",
+    "opponent": "Republic of Ireland",
+    "image_url": "/historic/frank_hand.jpg",
+    "description": "In extra time of a World Cup qualification playoff, Henry controlled the ball with his hand before setting up William Gallas for the decisive goal. The handball went unpunished, eliminating Ireland and sparking international debate about video technology in football, which was eventually implemented years later."
+  },
+  {
+    "title": "Porto's Champions League Victory",
+    "year": 2004,
+    "event": "UEFA Champions League",
+    "player": "José Mourinho",
+    "team": "FC Porto",
+    "opponent": "Various",
+    "image_url": "/historic/mourinho_win.jpg",
+    "description": "José Mourinho announced himself on the world stage by leading underdog Portuguese side Porto to an unlikely Champions League triumph. Defeating Manchester United and Lyon before beating Monaco in the final, this achievement launched Mourinho's career as 'The Special One' and remains one of the competition's biggest surprises."
+  },
+  {
+    "title": "John Terry's Penalty Slip",
+    "year": 2008,
+    "event": "UEFA Champions League Final",
+    "player": "John Terry",
+    "team": "Chelsea",
+    "opponent": "Manchester United",
+    "image_url": "/historic/slip.jpg",
+    "description": "With Chelsea one penalty away from winning their first Champions League, captain John Terry slipped on the wet Moscow pitch and hit the post. Manchester United went on to win the shootout, creating one of the most devastating moments of sporting heartbreak as Terry sobbed uncontrollably after the final whistle."
+  },
+  {
+    "title": "Messi Stares at the Trophy",
+    "year": 2014,
+    "event": "FIFA World Cup Final",
+    "player": "Lionel Messi",
+    "team": "Argentina",
+    "opponent": "Germany",
+    "image_url": "/historic/messi_trophy.jpg",
+    "description": "After Argentina's 1-0 defeat to Germany in extra time, Lionel Messi walked past the World Cup trophy during the award ceremony. His lingering gaze at the prize he came so close to winning became a powerful image of unfulfilled greatness and personal heartbreak."
+  },
+  {
+    "title": "Ronaldo's Gravity-Defying Header",
+    "year": 2019,
+    "event": "Serie A Matchday",
+    "player": "Cristiano Ronaldo",
+    "team": "Juventus",
+    "opponent": "Sampdoria",
+    "image_url": "/historic/ronaldo_header.jpg",
+    "description": "Cristiano Ronaldo stunned the football world with a jaw-dropping header against Sampdoria, leaping 2.56 meters off the ground and hanging in the air for 1.5 seconds before powering the ball into the net. The goal highlighted Ronaldo’s freakish athleticism and remains one of the most iconic headers in football history."
+  },
+  {
+    "title": "Pele’s World Cup Triumphs",
+    "year": [1970],
+    "event": "FIFA World Cup",
+    "player": "Pele",
+    "team": "Brazil",
+    "opponent": "Various",
+    "image_url": "/historic/pele_triumph.jpg",
+    "description": "Pele, often considered the greatest footballer of all time, won three FIFA World Cups with Brazil. His performances, especially in 1958 when he was only 17, became legendary. His remarkable skills and leadership were key in Brazil’s World Cup victories in 1958, 1962, and 1970, cementing his place as a football icon."
+  },
+  {
+    "title": "Luis Suarez's Handball in 2010 World Cup",
+    "year": 2010,
+    "event": "FIFA World Cup Quarterfinals",
+    "player": "Luis Suarez",
+    "team": "Uruguay",
+    "opponent": "Ghana",
+    "image_url": "/historic/suarez_handball.jpg",
+    "description": "In the 2010 World Cup quarterfinals, Suarez blocked a goal-bound shot with his hand on the line in the dying seconds. He was sent off, but his team won on penalties, and Suarez became a controversial hero."
+  },
+  {
+    "title": "Sergio Ramos’ 93rd-minute Goal in the 2014 Champions League Final",
+    "year": 2014,
+    "event": "UEFA Champions League Final",
+    "player": "Sergio Ramos",
+    "team": "Real Madrid",
+    "opponent": "Atletico Madrid",
+    "image_url": "/historic/ramos_93min.jpg",
+    "description": "Sergio Ramos' iconic header in the final minutes of extra time helped Real Madrid clinch their 10th European title, 'La Decima,' against Atletico Madrid."
+  },
+  {
+    "title": "Gareth Bale’s Stunning Goal in the 2018 Champions League Final",
+    "year": 2018,
+    "event": "UEFA Champions League Final",
+    "player": "Gareth Bale",
+    "team": "Real Madrid",
+    "opponent": "Liverpool",
+    "image_url": "/historic/bale_final.jpg",
+    "description": "Gareth Bale’s stunning overhead kick in the 2018 Champions League final against Liverpool not only sealed the victory for Real Madrid but also remains one of the greatest goals in Champions League history."
+  },
+  {
+    "title": "Cristiano Ronaldo’s Hat-Trick Against Spain",
+    "year": 2018,
+    "event": "FIFA World Cup Group Stage",
+    "player": "Cristiano Ronaldo",
+    "team": "Portugal",
+    "opponent": "Spain",
+    "image_url": "/historic/ronaldo_hattrick.jpg",
+    "description": "Cristiano Ronaldo scored a stunning hat-trick against Spain in the 2018 World Cup, including a remarkable free-kick in the dying minutes to secure a 3-3 draw, cementing his legacy as one of the greatest players in football history."
+  },
+  {
+    "title": "Zlatan Ibrahimović’s Bicycle Kick Against England",
+    "year": 2012,
+    "event": "Friendly Match",
+    "player": "Zlatan Ibrahimović",
+    "team": "Sweden",
+    "opponent": "England",
+    "image_url": "/historic/ibrahimovic_bicycle.jpg",
+    "description": "Zlatan Ibrahimović scored one of the greatest goals in football history with a stunning bicycle kick from 30 yards out during a friendly match against England in 2012. The goal, which beat goalkeeper Joe Hart, remains one of the most iconic and memorable moments in international football."
+  }
+  
+  
+  
+]

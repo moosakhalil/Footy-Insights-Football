@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Manchester United Home Jersey",
+      "team": "Manchester United",
+      "category": "jerseys",
+      "price": 89.99,
+      "discount": 10,
+      "image": "/images/mu.png",
+      "rating": 4.5,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Liverpool Home Jersey",
+      "team": "Liverpool",
+      "category": "jerseys",
+      "price": 84.99,
+      "discount": 10,
+      "image": "/images/liv.png",
+      "rating": 4.7,
+      "inStock": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "hashed_password_here",
+      "savedCards": [
+        {
+          "id": 1,
+          "cardNumber": "**** **** **** 1234",
+          "cardHolder": "John Doe",
+          "expiryDate": "12/25",
+          "cvv": "***"
+        }
+      ],
+      "billingAddress": {
+        "name": "John Doe",
+        "address": "123 Main St",
+        "city": "New York",
+        "postalCode": "10001",
+        "country": "USA"
+      }
+    }
+  ]
+} 

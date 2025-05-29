@@ -1,0 +1,244 @@
+.fb-store-footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.fb-store-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.fb-store-footer-top {
+  padding: 4rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.fb-store-footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.fb-store-footer-title {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.fb-store-footer-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #ffb700;
+}
+
+/* About Section */
+.fb-store-footer-about {
+  color: #bbb;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.fb-store-footer-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.fb-store-footer-social .social-link {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.fb-store-footer-social .social-link:hover {
+  background-color: #ffb700;
+  transform: translateY(-3px);
+}
+
+/* Quick Links */
+.fb-store-footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fb-store-footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.fb-store-footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: block;
+  padding: 0.25rem 0;
+}
+
+.fb-store-footer-links a:hover {
+  color: #ffb700;
+  padding-left: 0.5rem;
+}
+
+/* Contact Info */
+.fb-store-footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fb-store-footer-contact li {
+  margin-bottom: 1rem;
+  color: #bbb;
+}
+
+.fb-store-footer-contact a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.fb-store-footer-contact a:hover {
+  color: #ffb700;
+}
+
+/* Newsletter */
+.fb-store-footer-newsletter-text {
+  color: #bbb;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.fb-store-footer-newsletter {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.fb-store-footer-newsletter input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.fb-store-footer-newsletter input:focus {
+  outline: none;
+  border-color: #ffb700;
+}
+
+.fb-store-footer-newsletter button {
+  padding: 0.75rem 1.5rem;
+  background-color: #ffb700;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.fb-store-footer-newsletter button:hover {
+  background-color: #ffc730;
+  transform: translateY(-2px);
+}
+
+/* Footer Bottom */
+.fb-store-footer-bottom {
+  padding: 1.5rem 0;
+  background-color: #111;
+}
+
+.fb-store-footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.fb-store-footer-copyright {
+  color: #bbb;
+  margin: 0;
+}
+
+.fb-store-footer-bottom-links {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.fb-store-footer-bottom-links a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.fb-store-footer-bottom-links a:hover {
+  color: #ffb700;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .fb-store-footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .fb-store-footer-top {
+    padding: 3rem 0;
+  }
+
+  .fb-store-footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .fb-store-footer-bottom-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .fb-store-footer-bottom-links {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fb-store-footer-newsletter {
+    flex-direction: column;
+  }
+
+  .fb-store-footer-newsletter button {
+    width: 100%;
+  }
+
+  .fb-store-footer-bottom-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+} 

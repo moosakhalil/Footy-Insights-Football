@@ -1,0 +1,170 @@
+[
+  {
+    "season": 2025,
+    "winning_club": "",
+    "score": "",
+    "runner_up": "",
+    "winning_club_image": "/public/clubs/winning_club_2025.jpg",
+    "runner_up_image": "/public/clubs/runner_up_2025.jpg"
+  },
+  {
+    "season": 2023,
+    "winning_club": "Manchester City",
+    "score": "4–0",
+    "runner_up": "Fluminense",
+    "winning_club_image": "/public/clubs/manchester_city.jpg",
+    "runner_up_image": "/public/clubs/fluminese.jpg"
+  },
+  {
+    "season": 2022,
+    "winning_club": "Real Madrid",
+    "score": "5–3",
+    "runner_up": "Al-Hilal",
+    "winning_club_image": "/public/clubs/real.jpg",
+    "runner_up_image": "/public/clubs/al_hilal.jpg"
+  },
+  {
+    "season": 2021,
+    "winning_club": "Chelsea",
+    "score": "2–1 (a.e.t)",
+    "runner_up": "Palmeiras",
+    "winning_club_image": "/public/clubs/chelsea.jpg",
+    "runner_up_image": "/public/clubs/palmerias.jpg"
+  },
+  {
+    "season": 2020,
+    "winning_club": "Bayern Munich",
+    "score": "1–0",
+    "runner_up": "Tigres UANL",
+    "winning_club_image": "/public/clubs/bayren.jpg",
+    "runner_up_image": "/public/clubs/tigres.jpg"
+  },
+  {
+    "season": 2019,
+    "winning_club": "Liverpool",
+    "score": "1–0 (a.e.t)",
+    "runner_up": "Flamengo",
+    "winning_club_image": "/public/clubs/liverpool.jpg",
+    "runner_up_image": "/public/clubs/flamengo.jpg"
+  },
+  {
+    "season": 2018,
+    "winning_club": "Real Madrid",
+    "score": "4–1",
+    "runner_up": "Al-Ain",
+    "winning_club_image": "/public/clubs/real.jpg",
+    "runner_up_image": "/public/clubs/al_ain.jpg"
+  },
+  {
+    "season": 2017,
+    "winning_club": "Real Madrid",
+    "score": "1–0",
+    "runner_up": "Grêmio",
+    "winning_club_image": "/public/clubs/real.jpg",
+    "runner_up_image": "/public/clubs/gremio.jpg"
+  },
+  {
+    "season": 2016,
+    "winning_club": "Real Madrid",
+    "score": "4–2 (a.e.t)",
+    "runner_up": "Kashima Antlers",
+    "winning_club_image": "/public/clubs/real.jpg",
+    "runner_up_image": "/public/clubs/kashima.jpg"
+  },
+  {
+    "season": 2015,
+    "winning_club": "Barcelona",
+    "score": "3–0",
+    "runner_up": "River Plate",
+    "winning_club_image": "/public/clubs/barcelona.jpg",
+    "runner_up_image": "/public/clubs/river.jpg"
+  },
+  {
+    "season": 2014,
+    "winning_club": "Real Madrid",
+    "score": "2–0",
+    "runner_up": "San Lorenzo",
+    "winning_club_image": "/public/clubs/real.jpg",
+    "runner_up_image": "/public/clubs/lorenzo.jpg"
+  },
+  {
+    "season": 2013,
+    "winning_club": "Bayern Munich",
+    "score": "2–0",
+    "runner_up": "Raja Casablanca",
+    "winning_club_image": "/public/clubs/bayren.jpg",
+    "runner_up_image": "/public/clubs/raja.jpg"
+  },
+  {
+    "season": 2012,
+    "winning_club": "Corinthians",
+    "score": "1–0",
+    "runner_up": "Chelsea",
+    "winning_club_image": "/public/clubs/corinthians.jpg",
+    "runner_up_image": "/public/clubs/chelsea.jpg"
+  },
+  {
+    "season": 2011,
+    "winning_club": "Barcelona",
+    "score": "4–0",
+    "runner_up": "Santos",
+    "winning_club_image": "/public/clubs/barcelona.jpg",
+    "runner_up_image": "/public/clubs/santos.jpg"
+  },
+  {
+    "season": 2010,
+    "winning_club": "Internazionale",
+    "score": "3–0",
+    "runner_up": "TP Mazembe",
+    "winning_club_image": "/public/clubs/internazionale.jpg",
+    "runner_up_image": "/public/clubs/mazembe.jpg"
+  },
+  {
+    "season": 2009,
+    "winning_club": "Barcelona",
+    "score": "2–1 (a.e.t)",
+    "runner_up": "Estudiantes",
+    "winning_club_image": "/public/clubs/barcelona.jpg",
+    "runner_up_image": "/public/clubs/estudinates.jpg"
+  },
+  {
+    "season": 2008,
+    "winning_club": "Manchester United",
+    "score": "1–0",
+    "runner_up": "LDU Quito",
+    "winning_club_image": "/public/clubs/MU.jpg",
+    "runner_up_image": "/public/clubs/quito.jpg"
+  },
+  {
+    "season": 2007,
+    "winning_club": "Milan",
+    "score": "4–2",
+    "runner_up": "Boca Juniors",
+    "winning_club_image": "/public/clubs/milan.jpg",
+    "runner_up_image": "/public/clubs/juniors.jpg"
+  },
+  {
+    "season": 2006,
+    "winning_club": "Internacional",
+    "score": "1–0",
+    "runner_up": "Barcelona",
+    "winning_club_image": "/public/clubs/internacional.jpg",
+    "runner_up_image": "/public/clubs/barcelona.jpg"
+  },
+  {
+    "season": 2005,
+    "winning_club": "São Paulo",
+    "score": "1–0",
+    "runner_up": "Liverpool",
+    "winning_club_image": "/public/clubs/sao.jpg",
+    "runner_up_image": "/public/clubs/liverpool.jpg"
+  },
+  {
+    "season": 2000,
+    "winning_club": "Corinthians",
+    "score": "0–0 (a.e.t) (penalties 4–3)",
+    "runner_up": "Vasco da Gama",
+    "winning_club_image": "/public/clubs/corinthians.jpg",
+    "runner_up_image": "/public/clubs/vasco.jpg"
+  }
+]

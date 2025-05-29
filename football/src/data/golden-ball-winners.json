@@ -1,0 +1,156 @@
+[
+    {
+      "year": 2022,
+      "winner": "Lionel Messi",
+      "country": "Argentina",
+      "country_flag": "https://flagcdn.com/w320/ar.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg"
+    },
+    {
+      "year": 2018,
+      "winner": "Luka Modrić",
+      "country": "Croatia",
+      "country_flag": "https://flagcdn.com/w320/hr.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/ISL-HRV_%287%29.jpg/440px-ISL-HRV_%287%29.jpg"
+    },
+    {
+      "year": 2014,
+      "winner": "Lionel Messi",
+      "country": "Argentina",
+      "country_flag": "https://flagcdn.com/w320/ar.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg"
+    },
+    {
+      "year": 2010,
+      "winner": "Diego Forlán",
+      "country": "Uruguay",
+      "country_flag": "https://flagcdn.com/w320/uy.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/U10_Diego_Forl%C3%A1n_7524.jpg"
+    },
+    {
+      "year": 2006,
+      "winner": "Zinedine Zidane",
+      "country": "France",
+      "country_flag": "https://flagcdn.com/w320/fr.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg"
+    },
+    {
+      "year": 2002,
+      "winner": "Oliver Kahn",
+      "country": "Germany",
+      "country_flag": "https://flagcdn.com/w320/de.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/2022-07-30_Fu%C3%9Fball%2C_M%C3%A4nner%2C_DFL-Supercup%2C_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3179_by_Stepro.jpg"
+    },
+    {
+      "year": 1998,
+      "winner": "Ronaldo",
+      "country": "Brazil",
+      "country_flag": "https://flagcdn.com/w320/br.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/7/74/051119SMcC0014.jpg"
+    },
+    {
+      "year": 1994,
+      "winner": "Romário",
+      "country": "Brazil",
+      "country_flag": "https://flagcdn.com/w320/br.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Senadores_da_57%C2%AA_Legislatura_%2852689451805%29.jpg"
+    },
+    {
+      "year": 1990,
+      "winner": "Salvatore Schillaci",
+      "country": "Italy",
+      "country_flag": "https://flagcdn.com/w320/it.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Salvatore_Schillaci.jpg"
+    },
+    {
+      "year": 1986,
+      "winner": "Diego Maradona",
+      "country": "Argentina",
+      "country_flag": "https://flagcdn.com/w320/ar.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/440px-Maradona-Mundial_86_con_la_copa.JPG"
+    },
+    {
+      "year": 1982,
+      "winner": "Paolo Rossi",
+      "country": "Italy",
+      "country_flag": "https://flagcdn.com/w320/it.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Paolo_Rossi_at_the_1982_FIFA_World_Cup_%28cropped%29.jpg"
+    },
+    {
+      "year": 1978,
+      "winner": "Mario Kempes",
+      "country": "Argentina",
+      "country_flag": "https://flagcdn.com/w320/ar.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Kempes_Valencia_CF.jpg"
+    },
+    {
+      "year": 1974,
+      "winner": "Johan Cruyff",
+      "country": "Netherlands",
+      "country_flag": "https://flagcdn.com/w320/nl.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Johan_Cruijff_%281974%29.jpg"
+    },
+    {
+      "year": 1970,
+      "winner": "Pelé",
+      "country": "Brazil",
+      "country_flag": "https://flagcdn.com/w320/br.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg"
+    },
+    {
+      "year": 1966,
+      "winner": "Bobby Charlton",
+      "country": "England",
+      "country_flag": "https://flagcdn.com/w320/gb-eng.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/0/09/LondonHouseAmsterdam1966_Bobby_Charlton.jpg"
+    },
+    {
+      "year": 1962,
+      "winner": "Garrincha",
+      "country": "Brazil",
+      "country_flag": "https://flagcdn.com/w320/br.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/MFdSantos-Garrincha.jpg"
+    },
+    {
+      "year": 1958,
+      "winner": "Didi",
+      "country": "Brazil",
+      "country_flag": "https://flagcdn.com/w320/br.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Waldir_Pereira_1958.jpg"
+    },
+    {
+      "year": 1954,
+      "winner": "Ferenc Puskás",
+      "country": "Hungary",
+      "country_flag": "https://flagcdn.com/w320/hu.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pusk%C3%A1s_1954.jpg"
+    },
+    {
+      "year": 1950,
+      "winner": "Zizinho",
+      "country": "Brazil",
+      "country_flag": "https://flagcdn.com/w320/br.png",
+      "player_image": "https://www.alamy.com/stock-image-zizinho-1944-flamengo-166034816.html"
+    },
+    {
+      "year": 1938,
+      "winner": "Leônidas",
+      "country": "Brazil",
+      "country_flag": "https://flagcdn.com/w320/br.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Leonidas_dasilva.jpg"
+    },
+    {
+      "year": 1934,
+      "winner": "Giuseppe Meazza",
+      "country": "Italy",
+      "country_flag": "https://flagcdn.com/w320/it.png",
+      "player_image":" https://upload.wikimedia.org/wikipedia/commons/1/19/Giuseppe_Meazza_1935.jpg"
+    },
+    {
+      "year": 1930,
+      "winner": "José Nasazzi",
+      "country": "Uruguay",
+      "country_flag": "https://flagcdn.com/w320/uy.png",
+      "player_image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Jose_nasazzi_urug.jpg"
+    }
+]

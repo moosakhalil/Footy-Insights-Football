@@ -1,0 +1,112 @@
+[
+  {
+    "year": 2022,
+    "winner": "Lionel Messi",
+    "country": "Argentina"
+  },
+  {
+    "year": 2018,
+    "winner": "Luka Modric",
+    "country": "Croatia"
+  },
+  {
+    "year": 2014,
+    "winner": "Lionel Messi",
+    "country": "Argentina"
+  },
+  {
+    "year": 2010,
+    "winner": "Diego Forlán",
+    "country": "Uruguay"
+  },
+  {
+    "year": 2006,
+    "winner": "Zinedine Zidane",
+    "country": "France"
+  },
+  {
+    "year": 2002,
+    "winner": "Oliver Kahn",
+    "country": "Germany"
+  },
+  {
+    "year": 1998,
+    "winner": "Ronaldo",
+    "country": "Brazil"
+  },
+  {
+    "year": 1994,
+    "winner": "Romário (Romário de Souza Faria)",
+    "country": "Brazil"
+  },
+  {
+    "year": 1990,
+    "winner": "Salvatore Schillaci",
+    "country": "Italy"
+  },
+  {
+    "year": 1986,
+    "winner": "Diego Maradona",
+    "country": "Argentina"
+  },
+  {
+    "year": 1982,
+    "winner": "Paolo Rossi",
+    "country": "Italy"
+  },
+  {
+    "year": 1978,
+    "winner": "Mario Kempes",
+    "country": "Argentina"
+  },
+  {
+    "year": 1974,
+    "winner": "Johan Cruyff",
+    "country": "Netherlands"
+  },
+  {
+    "year": 1970,
+    "winner": "Pelé",
+    "country": "Brazil"
+  },
+  {
+    "year": 1966,
+    "winner": "Bobby Charlton",
+    "country": "England"
+  },
+  {
+    "year": 1962,
+    "winner": "Garrincha",
+    "country": "Brazil"
+  },
+  {
+    "year": 1958,
+    "winner": "Didi",
+    "country": "Brazil"
+  },
+  {
+    "year": 1954,
+    "winner": "Ferenc Puskás",
+    "country": "Hungary"
+  },
+  {
+    "year": 1950,
+    "winner": "Zizinho",
+    "country": "Brazil"
+  },
+  {
+    "year": 1938,
+    "winner": "Leônidas",
+    "country": "Brazil"
+  },
+  {
+    "year": 1934,
+    "winner": "Giuseppe Meazza",
+    "country": "Italy"
+  },
+  {
+    "year": 1930,
+    "winner": "José Nasazzi",
+    "country": "Uruguay"
+  }
+]

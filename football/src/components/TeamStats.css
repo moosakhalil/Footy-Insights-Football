@@ -1,0 +1,783 @@
+.team-stats {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.team-stats.dark {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+/* Team Selector Styles - dark theme by default */
+.ts-team-selector {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(15, 23, 42, 0.85);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.4s ease;
+}
+
+.ts-team-selector:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-color: #60a5fa;
+}
+
+.ts-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.ts-team-selector h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.ts-team-selector h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(to right, #60a5fa, #3b82f6);
+  border-radius: 2px;
+}
+
+.ts-blue-text {
+  color: white;
+  background: -webkit-linear-gradient(#60a5fa, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.ts-season {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 1rem;
+  color: white;
+}
+
+/* Teams Grid Layout */
+.ts-teams-grid {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+/* Teams Grid Container - dark theme by default */
+.ts-teams-grid-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  max-width: 1000px;
+  overflow-x: auto;
+  padding: 1.5rem 2rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: rgba(15, 23, 42, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ts-teams-grid-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Team Items - dark theme by default */
+.ts-team-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  min-width: 100px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+
+.ts-team-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.ts-team-item.active {
+  background-color: rgba(59, 130, 246, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+  border-color: #60a5fa;
+}
+
+.ts-team-item.active .ts-team-select-name {
+  color: white;
+  font-weight: 600;
+}
+
+.ts-team-logo-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 6px;
+  background-color: white;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.ts-team-item:hover .ts-team-logo-circle {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.ts-team-item.active .ts-team-logo-circle {
+  border-color: #60a5fa;
+}
+
+.ts-team-select-logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.ts-team-select-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.ts-team-active-indicator {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  width: 10px;
+  height: 10px;
+  background-color: #60a5fa;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px #60a5fa;
+}
+
+.ts-team-item.active .ts-team-active-indicator {
+  transform: translateX(-50%) scale(1);
+}
+
+/* Current Team Display */
+.ts-team-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  animation: fadeInDown 0.5s ease;
+}
+
+.ts-logo-display {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border: 4px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.ts-logo-display:hover {
+  transform: scale(1.05) rotate(5deg);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  border-color: #60a5fa;
+}
+
+.ts-current-team-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.ts-current-team-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Tabs Navigation */
+.ts-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.ts-tabs {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 1rem;
+}
+
+/* Tab Navigation - dark theme by default */
+.ts-tab {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 8px;
+}
+
+.ts-tab:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+.ts-tab.active {
+  color: white;
+  background-color: rgba(96, 165, 250, 0.1);
+  position: relative;
+}
+
+.ts-tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 4px;
+  background: linear-gradient(to right, #60a5fa, #3b82f6);
+  border-radius: 2px;
+}
+
+/* Stats and Sequence Grids */
+.ts-sequences-grid,
+.ts-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Cards Styling - dark theme by default */
+.ts-sequence-card, 
+.ts-stat-card {
+  background-color: rgba(15, 23, 42, 0.85);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 0; /* Ensures cards can shrink */
+}
+
+.ts-sequence-card:hover, 
+.ts-stat-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.ts-sequence-header, 
+.ts-stat-header {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ts-sequence-icon, 
+.ts-stat-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.ts-sequence-header h3, 
+.ts-stat-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 700;
+}
+
+.ts-sequence-content, 
+.ts-stat-content {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Match Row Items - dark theme by default */
+.ts-sequence-row, 
+.ts-match-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+}
+
+.ts-sequence-row:hover, 
+.ts-match-row:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+.ts-match-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ts-match-date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ts-match-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.ts-team-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ts-team-name {
+  font-size: 0.95rem;
+  color: white;
+  font-weight: 500;
+}
+
+.ts-score {
+  padding: 0.3rem 0.8rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.ts-match-attendance {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0.5rem;
+}
+
+/* Result Icons */
+.result-icon {
+  margin-right: 5px;
+}
+
+.result-icon.win {
+  color: #10b981;
+}
+
+.result-icon.loss {
+  color: #ef4444;
+}
+
+.result-icon.draw {
+  color: #f59e0b;
+}
+
+/* Sequence Type */
+.ts-sequence-type-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.sequence-type-icon {
+  margin-right: 5px;
+}
+
+.sequence-type-icon.win {
+  color: #10b981;
+}
+
+.sequence-type-icon.unbeaten {
+  color: #3b82f6;
+}
+
+.sequence-type-icon.loss {
+  color: #ef4444;
+}
+
+.ts-sequence-value {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+/* Loading and Error States - dark theme by default */
+.ts-loading, .ts-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 300px;
+  gap: 1rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(15, 23, 42, 0.8);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.ts-loading {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.loading-icon {
+  animation: rotate 1.5s linear infinite;
+}
+
+.ts-error {
+  color: #ef4444;
+}
+
+.ts-error button {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.ts-error button:hover {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  transform: translateY(-3px);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .ts-sequences-grid,
+  .ts-stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .ts-sequences-grid,
+  .ts-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .team-stats {
+    padding: 1rem;
+  }
+  
+  .ts-team-selector {
+    padding: 1.5rem;
+  }
+  
+  .ts-header-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .ts-teams-grid {
+    margin: 1rem 0;
+  }
+  
+  .ts-team-logo-circle {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .ts-team-select-logo {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .ts-team-select-name {
+    font-size: 0.8rem;
+  }
+  
+  .ts-logo-display {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .ts-current-team-logo {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .ts-tabs {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .ts-tab {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .ts-match-teams {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .ts-score {
+    margin: 0.5rem 0;
+  }
+  
+  .ts-sequence-row, 
+  .ts-match-row {
+    padding: 0.75rem;
+  }
+  
+  .ts-sequence-value {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .ts-match-attendance {
+    font-size: 0.8rem;
+  }
+
+  .ts-sequences-grid,
+  .ts-stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .ts-team-selector h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ts-team-selector h2 {
+    font-size: 1.5rem;
+  }
+  
+  .ts-current-team-name {
+    font-size: 1.5rem;
+  }
+  
+  .ts-sequence-header h3, 
+  .ts-stat-header h3 {
+    font-size: 1.1rem;
+  }
+  
+  .ts-team-logo-circle {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .ts-team-select-logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Sequence Row Styling */
+.ts-sequence-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(15, 23, 42, 0.4);
+  border-radius: 12px;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+  position: relative;
+  border-left: 3px solid transparent;
+}
+
+.ts-sequence-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-width: 75%;
+}
+
+.ts-sequence-desc {
+  font-size: 0.85rem;
+  color: white;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ts-sequence-type-container {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.ts-sequence-type {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.ts-sequence-value {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  min-width: 1.8rem;
+  text-align: center;
+}
+
+.sequence-type-icon {
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.sequence-type-icon.win {
+  color: #10b981;
+}
+
+.sequence-type-icon.unbeaten {
+  color: #f59e0b;
+}
+
+.sequence-type-icon.loss {
+  color: #ef4444;
+}

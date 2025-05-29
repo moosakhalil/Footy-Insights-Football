@@ -1,0 +1,329 @@
+.celebration-detail-page {
+  min-height: 100vh;
+  padding: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.celebration-back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  background-color: rgba(15, 23, 42, 0.85);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.celebration-back-button:hover {
+  transform: translateY(-2px);
+  background-color: rgba(96, 165, 250, 0.2);
+  border-color: #60a5fa;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.celebration-detail-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(15, 23, 42, 0.85);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.5s ease;
+}
+
+.celebration-detail-header {
+  margin-bottom: 2rem;
+}
+
+.celebration-title-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.celebration-detail-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.celebration-detail-header h1::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(to right, #60a5fa, #3b82f6);
+  border-radius: 2px;
+}
+
+.celebration-detail-badge {
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  color: white;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3);
+}
+
+.celebration-meta-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.celebration-meta-player, 
+.celebration-meta-nationality {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.meta-label {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.meta-value {
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+.celebration-detail-image {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+  margin: 2rem 0;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.celebration-download-btn {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.9;
+}
+
+.celebration-download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+.celebration-detail-info {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.celebration-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.celebration-stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.celebration-stat-label {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+.celebration-stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.celebration-description h3 {
+  font-size: 1.8rem;
+  margin: 0 0 1.5rem 0;
+  color: white;
+}
+
+.celebration-description p {
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+}
+
+.celebration-detail-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 300px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.celebration-skeleton-loading {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(15, 23, 42, 0.85) 25%, rgba(30, 41, 59, 0.85) 50%, rgba(15, 23, 42, 0.85) 75%);
+  background-size: 200% 100%;
+  animation: celebration-skeleton-loading 1.5s infinite;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.celebration-not-found {
+  text-align: center;
+  padding: 4rem;
+  background: rgba(15, 23, 42, 0.85);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.celebration-not-found h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  color: white;
+}
+
+.celebration-not-found p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+}
+
+.celebration-event {
+  color: #60a5fa;
+}
+
+@keyframes celebration-skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 991px) {
+  .celebration-detail-page {
+    padding: 1.5rem;
+  }
+  
+  .celebration-detail-content {
+    padding: 1.5rem;
+  }
+  
+  .celebration-detail-header h1 {
+    font-size: 2rem;
+  }
+  
+  .celebration-stats {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .celebration-detail-page {
+    padding: 1rem;
+  }
+  
+  .celebration-back-button {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .celebration-detail-content {
+    padding: 1.2rem;
+  }
+  
+  .celebration-detail-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .celebration-meta-info {
+    font-size: 1rem;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .celebration-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .celebration-stat-value {
+    font-size: 1.3rem;
+  }
+  
+  .celebration-description h3 {
+    font-size: 1.5rem;
+  }
+  
+  .celebration-description p {
+    font-size: 1rem;
+  }
+  
+  .celebration-download-btn {
+    bottom: 12px;
+    right: 12px;
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+} 

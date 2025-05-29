@@ -1,0 +1,90 @@
+.fb-store-main-nav {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: -5px;
+}
+
+.fb-store-nav-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.fb-store-nav-categories, .fb-store-secondary-categories {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fb-store-nav-item {
+  margin: 0;
+  padding: 0;
+}
+
+.fb-store-nav-item a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.fb-store-nav-item a:hover {
+  color: #f06;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.fb-store-nav-item a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: #f06;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.fb-store-nav-item a:hover:after {
+  width: 80%;
+}
+
+.fb-store-offers {
+  color: #f06 !important;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .fb-store-nav-container {
+    flex-direction: column;
+  }
+  
+  .fb-store-nav-categories, .fb-store-secondary-categories {
+    flex-wrap: wrap;
+  }
+  
+  .fb-store-nav-item a {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .fb-store-secondary-categories {
+    justify-content: flex-end;
+    border-top: 1px solid #eee;
+  }
+}
+
+@media (max-width: 576px) {
+  .fb-store-nav-categories, .fb-store-secondary-categories {
+    justify-content: center;
+  }
+} 
+ 

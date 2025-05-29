@@ -1,0 +1,286 @@
+.history-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+  transition: background-image 0.5s ease, background-color 0.5s ease;
+}
+
+/* Modern gradient header styling like the image */
+.history-header {
+  width: 100%;
+  max-width: 800px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  padding: 20px 30px;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.history-header h1 {
+  color: white !important;
+  font-size: 2.8rem !important;
+  font-weight: 800 !important;
+  margin: 0 !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: none !important;
+}
+
+/* Dark theme styles (default) */
+body.dark .history-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1508098682722-e99c643e7ffb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Light theme styles */
+body.light .history-page {
+  background-image: none;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.history-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body.light .history-page h1 {
+  color: #2563eb;
+  text-shadow: none;
+}
+
+body.dark .history-page h1 {
+  color: white;
+}
+
+.history-description {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+body.light .history-description {
+  color: #4b5563;
+}
+
+body.dark .history-description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.history-container {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.5s ease;
+}
+
+body.dark .history-container {
+  background-color: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(10px);
+}
+
+body.light .history-container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+body.dark .history-table {
+  color: white;
+}
+
+body.light .history-table {
+  color: #333;
+}
+
+.history-table thead {
+  transition: background-color 0.5s ease;
+}
+
+body.dark .history-table thead {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: white;
+}
+
+body.light .history-table thead {
+  background-color: #f3f4f6;
+  color: #1e3a8a;
+}
+
+.history-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  transition: border-color 0.5s ease;
+}
+
+body.dark .history-table th {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.light .history-table th {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.history-table td {
+  padding: 1rem;
+  font-size: 0.95rem;
+  transition: border-color 0.5s ease;
+}
+
+body.dark .history-table td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body.light .history-table td {
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.history-table tr:hover {
+  transition: background-color 0.3s ease;
+}
+
+body.dark .history-table tr:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+body.light .history-table tr:hover {
+  background-color: #f9fafb;
+}
+
+.winner-cell, .runner-up-cell, .nationality-cell, .player-name-cell, .club-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-flag {
+  width: 25px;
+  height: 18px;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.club-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: white;
+  padding: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.club-logo:hover {
+  transform: scale(1.1);
+}
+
+.player-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+body.light .player-image {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.page-button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+body.dark .page-button {
+  background-color: rgba(59, 130, 246, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.light .page-button {
+  background-color: #f3f4f6;
+  color: #4b5563;
+  border: 1px solid #e5e7eb;
+}
+
+body.dark .page-button:hover {
+  background-color: rgba(59, 130, 246, 0.3);
+}
+
+body.light .page-button:hover {
+  background-color: #e5e7eb;
+}
+
+body.dark .page-button.active {
+  background-color: rgba(59, 130, 246, 0.6);
+  border-color: rgba(59, 130, 246, 0.8);
+}
+
+body.light .page-button.active {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+@media (max-width: 768px) {
+  .history-page {
+    padding: 1rem;
+  }
+  
+  .history-header h1 {
+    font-size: 2rem !important;
+  }
+  
+  .history-page h1 {
+    font-size: 1.8rem;
+  }
+  
+  .history-description {
+    font-size: 1rem;
+  }
+  
+  .history-table th, 
+  .history-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .country-flag {
+    width: 20px;
+    height: 15px;
+  }
+} 

@@ -1,0 +1,337 @@
+[
+  {
+    "player": "Cristiano Ronaldo",
+    "nationality": "Portugal",
+    "celebration_name": "Siu/Siuuu",
+    "first_performed": 2013,
+    "event": "La Liga match with Real Madrid",
+    "description": "Ronaldo's jump with a 180-degree spin, arms stretched out, and shouting 'Siu!' (Spanish for 'Yes'). The celebration became globally recognized with fans joining in the 'Siuuu' chant whenever he scores.",
+    "image_url": "/celebrations/ronaldo_siuu.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Cristiano Ronaldo",
+    "nationality": "Portugal",
+    "celebration_name": "Calma",
+    "first_performed": 2012,
+    "event": "El Clásico vs Barcelona",
+    "description": "After scoring against Barcelona at Camp Nou, Ronaldo motioned to the crowd to 'calm down' by raising both hands and pressing them downward, indicating composure and dominance.",
+    "image_url": "/celebrations/ronaldo_calma.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Erling Haaland",
+    "nationality": "Norway",
+    "celebration_name": "Zen Meditation",
+    "first_performed": 2020,
+    "event": "Bundesliga with Borussia Dortmund",
+    "description": "Haaland sits cross-legged in a meditation pose after scoring. The calm, focused celebration has followed him to Manchester City and reflects his methodical approach to goalscoring.",
+    "image_url": "/celebrations/haaland_zen.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Mo Salah",
+    "nationality": "Egypt",
+    "celebration_name": "Yoga Pose",
+    "first_performed": 2018,
+    "event": "Premier League with Liverpool",
+    "description": "Salah often celebrates by standing still with his arms outstretched and eyes closed in a yoga-like stance. The calm, meditative celebration contrasts with the usual exuberance of goal celebrations and reflects his humble personality.",
+    "image_url": "/celebrations/salah_yoga.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Kylian Mbappé",
+    "nationality": "France",
+    "celebration_name": "Arms Crossed",
+    "first_performed": 2018,
+    "event": "Ligue 1 with PSG",
+    "description": "Mbappé's signature celebration involves standing with his arms crossed against his chest, projecting confidence and composure. The pose has become synonymous with his rise to the top of world football.",
+    "image_url": "/celebrations/mbappe celebration.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Antoine Griezmann",
+    "nationality": "France",
+    "celebration_name": "Take the L Dance",
+    "first_performed": 2018,
+    "event": "FIFA World Cup Final",
+    "description": "Inspired by the video game Fortnite, Griezmann performs an 'L' dance by making an L-shape with his fingers on his forehead while performing a hopping dance. He notably did this in the World Cup final after scoring against Croatia.",
+    "image_url": "/celebrations/griezman_style.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Paulo Dybala",
+    "nationality": "Argentina",
+    "celebration_name": "Dybala Mask",
+    "first_performed": 2017,
+    "event": "Serie A with Juventus",
+    "description": "Dybala places his hand over his face like a mask after scoring. The celebration, inspired by the movie 'Gladiator', references his nickname 'La Joya' (The Jewel) and has become his trademark throughout his career at Juventus and now Roma.",
+    "image_url": "/celebrations/dybala_mask.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Jude Bellingham",
+    "nationality": "England",
+    "celebration_name": "Arms Outstretched",
+    "first_performed": 2023,
+    "event": "La Liga with Real Madrid",
+    "description": "After scoring, Bellingham stands with his arms wide open, facing the crowd with a stoic expression. The celebration has become iconic during his breakthrough season at Real Madrid, embodying his confidence and composure beyond his years.",
+    "image_url": "/celebrations/bellingham_arms.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Vinicius Jr.",
+    "nationality": "Brazil",
+    "celebration_name": "Dance Moves",
+    "first_performed": 2021,
+    "event": "La Liga with Real Madrid",
+    "description": "Vinicius celebrates goals with various dance routines, often joined by teammates. His joyful celebrations continue Brazil's tradition of expressing happiness through dance, though they have sometimes sparked controversy with opponents.",
+    "image_url": "/celebrations/vini_dance.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Robert Lewandowski",
+    "nationality": "Poland",
+    "celebration_name": "Crossed Arms with Pointing Fingers",
+    "first_performed": 2015,
+    "event": "Bundesliga with Bayern Munich",
+    "description": "Lewandowski crosses his arms and points his index fingers downward. The simple but distinctive celebration has followed him from Bayern Munich to Barcelona and has become his trademark.",
+    "image_url": "/celebrations/lewandowski_goal.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Harry Kane",
+    "nationality": "England",
+    "celebration_name": "Hand Salute",
+    "first_performed": 2021,
+    "event": "Premier League with Tottenham Hotspur",
+    "description": "Kane often celebrates by raising his hand in a salute gesture, sometimes accompanied by a kiss of his wedding ring. The subdued celebration reflects his professional approach to goalscoring and has continued at Bayern Munich.",
+    "image_url": "/celebrations/kane_goal.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Bukayo Saka",
+    "nationality": "England",
+    "celebration_name": "Telephone Call",
+    "first_performed": 2023,
+    "event": "Premier League with Arsenal",
+    "description": "Saka celebrates by mimicking a telephone call, holding his hand to his ear. The celebration, sometimes joined by teammates, signifies calling for more success and has become popular among Arsenal fans.",
+    "image_url": "/celebrations/saka_call.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Kai Havertz",
+    "nationality": "Germany",
+    "celebration_name": "Finger to Lips",
+    "first_performed": 2023,
+    "event": "Premier League with Arsenal",
+    "description": "After receiving criticism early in his Arsenal career, Havertz began celebrating goals by putting his finger to his lips, silencing his critics. The gesture demonstrates his mental strength and determination to succeed.",
+    "image_url": "/celebrations/havertz_finger.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Lionel Messi",
+    "nationality": "Argentina",
+    "celebration_name": "Pointing to the Sky",
+    "first_performed": 2008,
+    "event": "La Liga with Barcelona",
+    "description": "Messi's most recognizable celebration involves pointing both index fingers toward the sky, a tribute to his grandmother who passed away. The gesture has followed him throughout his career at Barcelona, PSG, and now Inter Miami.",
+    "image_url": "/celebrations/messi_goal.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Gabriel Jesus",
+    "nationality": "Brazil",
+    "celebration_name": "Hello Mum",
+    "first_performed": 2017,
+    "event": "Premier League with Manchester City",
+    "description": "Jesus celebrates by mimicking a phone call with his hand, a gesture dedicated to calling his mother after scoring. The celebration followed him from Manchester City to Arsenal and symbolizes his close family ties.",
+    "image_url": "/celebrations/jesus_call.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Marcus Rashford",
+    "nationality": "England",
+    "celebration_name": "Temple Tap",
+    "first_performed": 2022,
+    "event": "Premier League with Manchester United",
+    "description": "Rashford celebrates by pointing to his temple, a gesture signifying mental strength and focus. The celebration became prominent after his return to form following struggles with confidence and injury.",
+    "image_url": "/celebrations/rashford_temple.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Rodri",
+    "nationality": "Spain",
+    "celebration_name": "Conductor",
+    "first_performed": 2022,
+    "event": "Premier League with Manchester City",
+    "description": "When scoring important goals, Rodri often celebrates by mimicking an orchestra conductor with his hands. The celebration reflects his role as the midfield maestro who controls the tempo of Manchester City's play.",
+    "image_url": "/celebrations/rodri_conductor.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Lautaro Martínez",
+    "nationality": "Argentina",
+    "celebration_name": "El Toro Mask",
+    "first_performed": 2019,
+    "event": "Serie A with Inter Milan",
+    "description": "Martínez celebrates by forming a mask with his hands around his eyes, referencing his nickname 'El Toro' (The Bull). The celebration embodies his aggressive, bullish playing style that has made him one of Serie A's top strikers.",
+    "image_url": "/celebrations/martinez_goal.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Phil Foden",
+    "nationality": "England",
+    "celebration_name": "Haaland Archer",
+    "first_performed": 2023,
+    "event": "Premier League with Manchester City",
+    "description": "Foden and teammate Erling Haaland sometimes celebrate together with an archer pose, with one player pretending to draw a bow and the other acting as the arrow. The celebration highlights their strong on-field partnership.",
+    "image_url": "/celebrations/foden_archer.jpg",
+    "signature_move": false
+  },
+  {
+    "player": "Federico Chiesa",
+    "nationality": "Italy",
+    "celebration_name": "Ear Cupping",
+    "first_performed": 2021,
+    "event": "Serie A with Juventus",
+    "description": "Chiesa often cups his ear toward the crowd after scoring, a gesture asking for more noise and appreciation. The celebration shows his desire to connect with fans and demonstrates his passionate character.",
+    "image_url": "/celebrations/chisea_ear.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Alphonso Davies",
+    "nationality": "Canada",
+    "celebration_name": "Photo Snap",
+    "first_performed": 2020,
+    "event": "Bundesliga with Bayern Munich",
+    "description": "Davies celebrates by pretending to take a photo of his teammates or the crowd. The playful celebration reflects his youthful enthusiasm and recognition of creating memorable moments.",
+    "image_url": "/celebrations/davies_snap.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Achraf Hakimi",
+    "nationality": "Morocco",
+    "celebration_name": "Penguin Waddle",
+    "first_performed": 2022,
+    "event": "Ligue 1 with PSG",
+    "description": "Hakimi celebrates with a penguin-like waddle, sometimes joined by teammate Mbappé. The lighthearted celebration has become popular among PSG fans and reflects the close friendship between the two players.",
+    "image_url": "/celebrations/hakimi_dance.jpg",
+    "signature_move": true
+  },
+ 
+  {
+    "player": "Jamal Musiala",
+    "nationality": "Germany",
+    "celebration_name": "Ice-Cold",
+    "first_performed": 2022,
+    "event": "Bundesliga with Bayern Munich",
+    "description": "Musiala rubs his arms as if he's cold after scoring important goals, signifying his 'ice-cold' composure in high-pressure situations. The celebration has become associated with his emergence as one of Europe's top young talents.",
+    "image_url": "/celebrations/musiala_ice.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Rafael Leão",
+    "nationality": "Portugal",
+    "celebration_name": "Phone Call",
+    "first_performed": 2021,
+    "event": "Serie A with AC Milan",
+    "description": "Leão often celebrates by mimicking a phone call, sometimes joined by teammates. The celebration references his music career and staying connected with his support network outside of football.",
+    "image_url": "/celebrations/rafa_phone.jpg",
+    "signature_move": true
+  },
+
+  {
+    "player": "Richarlison",
+    "nationality": "Brazil",
+    "celebration_name": "Pigeon Dance",
+    "first_performed": 2018,
+    "event": "Premier League with Everton",
+    "description": "Richarlison celebrates by flapping his arms like a pigeon and strutting around the pitch. The distinctive celebration has followed him from Everton to Tottenham Hotspur and reflects his Brazilian flair.",
+    "image_url": "/celebrations/richardlison_piegon.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Bruno Fernandes",
+    "nationality": "Portugal",
+    "celebration_name": "Hands Over Ears",
+    "first_performed": 2021,
+    "event": "Premier League with Manchester United",
+    "description": "Fernandes often celebrates by placing his hands over his ears, a gesture suggesting he's blocking out criticism and noise. The celebration reflects his mental approach to dealing with pressure at a club with high expectations.",
+    "image_url": "/celebrations/bruno_hands.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Son Heung-min",
+    "nationality": "South Korea",
+    "celebration_name": "Camera Celebration",
+    "first_performed": 2019,
+    "event": "Premier League with Tottenham Hotspur",
+    "description": "Son celebrates by forming a camera with his hands and pointing at teammates or fans. The joyful celebration highlights his playful personality and appreciation for creating memorable moments with fans.",
+    "image_url": "/celebrations/son_camera.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Alexis Mac Allister",
+    "nationality": "Argentina",
+    "celebration_name": "Finger Kiss",
+    "first_performed": 2022,
+    "event": "Premier League with Brighton",
+    "description": "Mac Allister kisses his finger and points to the sky after scoring, a tribute to loved ones and a gesture of gratitude. The celebration continued after his move to Liverpool following World Cup success with Argentina.",
+    "image_url": "/celebrations/mac.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Cole Palmer",
+    "nationality": "England",
+    "celebration_name": "Cold",
+    "first_performed": 2023,
+    "event": "Premier League with Chelsea",
+    "description": "Palmer celebrates goals by crossing his arms and rubbing his shoulders, mimicking a shivering motion. This 'Cold' celebration reflects his composed demeanor on the pitch and was inspired by his former Manchester City teammate Morgan Rogers. The gesture has become a viral sensation, symbolizing Palmer's coolness under pressure.",
+    "image_url": "/celebrations/palmer_cold.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Victor Osimhen",
+    "nationality": "Nigeria",
+    "celebration_name": "Cry More",
+    "first_performed": 2025,
+    "event": "Turkish Süper Lig with Galatasaray",
+    "description": "After scoring a penalty against Konyaspor, Osimhen celebrated by placing his hands below his eyes, mimicking a crying gesture. This was a direct response to his critics, symbolizing that their negative comments only fueled his performance. Osimhen later explained that the gesture was aimed at those who doubted him, stating they could 'keep crying.'",
+    "image_url": "/celebrations/oshimen_cry.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Neymar Jr.",
+    "nationality": "Brazil",
+    "celebration_name": "Cry More",
+    "first_performed": 2025,
+    "event": "Campeonato Brasileiro Série A with Santos",
+    "description": "After scoring a decisive goal against Corinthians, Neymar celebrated by placing his hands below his eyes, mimicking a crying gesture. The celebration was a clear message to his critics, symbolizing that their negativity only fuels his fire. Neymar later stated the gesture was aimed at those who questioned his return to Brazilian football, saying they could 'keep crying.'",
+    "image_url": "/celebrations/neymar.jpg",
+    "signature_move": false
+  },
+  {
+    "player": "Neymar Jr.",
+    "nationality": "Brazil",
+    "celebration_name": "Playful Mock",
+    "first_performed": 2025,
+    "event": "International Friendly with Brazil",
+    "description": "After scoring a goal, Neymar celebrated by placing both hands on the sides of his face with fingers spread wide, sticking out his tongue, and squinting his eyes. The gesture was playful and mocking in nature, aimed at critics or perhaps to entertain fans with his signature flair. Neymar later said it was just his way of having fun and expressing joy after a great moment on the pitch.",
+    "image_url": "/celebrations/neymar_face.jpg",
+    "signature_move": true
+  },
+  {
+    "player": "Pierre-Emerick Aubameyang",
+    "nationality": "Gabon",
+    "celebration_name": "Goku Power-Up",
+    "first_performed": 2025,
+    "event": "La Liga with Barcelona",
+    "description": "After scoring a stunning goal against Real Betis, Aubameyang celebrated by striking a Goku-style power-up pose—legs apart, fists clenched, and head raised as if charging energy. The Dragon Ball Z-inspired gesture thrilled fans and showed his love for anime culture. Aubameyang later explained that it symbolized unlocking 'Super Saiyan' energy on the pitch, showing that he was ready to go beyond limits.",
+    "image_url": "/celebrations/aubameyang_goku.jpg",
+    "signature_move": true
+  }
+  
+  
+  
+]

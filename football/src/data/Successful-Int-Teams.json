@@ -1,0 +1,80 @@
+[
+    {
+      "nation": "Brazil",
+      "titles": 5,
+      "runners_up": 2,
+      "flag_url": "https://flagcdn.com/w320/br.png"
+    },
+    {
+      "nation": "Germany",
+      "titles": 4,
+      "runners_up": 4,
+      "flag_url": "https://flagcdn.com/w320/de.png"
+    },
+    {
+      "nation": "Italy",
+      "titles": 4,
+      "runners_up": 2,
+      "flag_url": "https://flagcdn.com/w320/it.png"
+    },
+    {
+      "nation": "Argentina",
+      "titles": 3,
+      "runners_up": 3,
+      "flag_url": "https://flagcdn.com/w320/ar.png"
+    },
+    {
+      "nation": "France",
+      "titles": 2,
+      "runners_up": 2,
+      "flag_url": "https://flagcdn.com/w320/fr.png"
+    },
+    {
+      "nation": "Uruguay",
+      "titles": 2,
+      "runners_up": 0,
+      "flag_url": "https://flagcdn.com/w320/uy.png"
+    },
+    {
+      "nation": "England",
+      "titles": 1,
+      "runners_up": 0,
+      "flag_url": "https://flagcdn.com/w320/gb-eng.png"
+    },
+    {
+      "nation": "Spain",
+      "titles": 1,
+      "runners_up": 0,
+      "flag_url": "https://flagcdn.com/w320/es.png"
+    },
+    {
+      "nation": "Netherlands",
+      "titles": 0,
+      "runners_up": 3,
+      "flag_url": "https://flagcdn.com/w320/nl.png"
+    },
+    {
+      "nation": "Hungary",
+      "titles": 0,
+      "runners_up": 2,
+      "flag_url": "https://flagcdn.com/w320/hu.png"
+    },
+    {
+      "nation": "Czechoslovakia",
+      "titles": 0,
+      "runners_up": 2,
+      "flag_url": "https://flagcdn.com/w320/cz.png"
+    },
+    {
+      "nation": "Sweden",
+      "titles": 0,
+      "runners_up": 1,
+      "flag_url": "https://flagcdn.com/w320/se.png"
+    },
+    {
+      "nation": "Croatia",
+      "titles": 0,
+      "runners_up": 1,
+      "flag_url": "https://flagcdn.com/w320/hr.png"
+    }
+  ]

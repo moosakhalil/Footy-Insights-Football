@@ -1,0 +1,728 @@
+{
+  "easy": [
+    {
+      "id": 1,
+      "question": "How many players are there on a football team on the field?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "9"
+      ],
+      "answer": "11",
+      "imageUrl": "public/quiz/team-formation.jpg"
+    },
+    {
+      "id": 2,
+      "question": "Which player is known as 'CR7'?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Neymar",
+        "Mbappe"
+      ],
+      "answer": "Cristiano Ronaldo",
+      "imageUrl": "public/quiz/cr7.jpg"
+    },
+    {
+      "id": 3,
+      "question": "What is the color of a standard football?",
+      "options": [
+        "Red",
+        "Blue",
+        "White and Black",
+        "Green"
+      ],
+      "answer": "White and Black",
+      "imageUrl": "public/quiz/football.jpg"
+    },
+    {
+      "id": 4,
+      "question": "Which country won the 2018 FIFA World Cup?",
+      "options": [
+        "Brazil",
+        "Germany",
+        "France",
+        "Argentina"
+      ],
+      "answer": "France",
+      "imageUrl": "public/quiz/france-2018.jpg"
+    },
+    {
+      "id": 5,
+      "question": "Which country has won the most FIFA World Cups?",
+      "options": [
+        "Germany",
+        "Italy",
+        "Brazil",
+        "Argentina"
+      ],
+      "answer": "Brazil",
+      "imageUrl": "public/quiz/brazil-cups.jpg"
+    },
+    {
+      "id": 6,
+      "question": "What does FIFA stand for?",
+      "options": [
+        "Federation of International Football Associations",
+        "Fédération Internationale de Football Association",
+        "Football International Federation Association",
+        "Federal International Football Authority"
+      ],
+      "answer": "Fédération Internationale de Football Association",
+      "imageUrl": "public/quiz/fifa-logo.jpg"
+    },
+    {
+      "id": 7,
+      "question": "How long is a standard football match?",
+      "options": [
+        "80 minutes",
+        "90 minutes",
+        "100 minutes",
+        "120 minutes"
+      ],
+      "answer": "90 minutes",
+      "imageUrl": "public/quiz/match-clock.jpg"
+    },
+    {
+      "id": 8,
+      "question": "What is the shape of a football pitch?",
+      "options": [
+        "Circle",
+        "Square",
+        "Rectangle",
+        "Oval"
+      ],
+      "answer": "Rectangle",
+      "imageUrl": "public/quiz/football-pitch.jpg"
+    },
+    {
+      "id": 9,
+      "question": "Which of these is not a position in football?",
+      "options": [
+        "Goalkeeper",
+        "Defender",
+        "Attacker",
+        "Shooter"
+      ],
+      "answer": "Shooter",
+      "imageUrl": "public/quiz/positions.jpg"
+    },
+    {
+      "id": 10,
+      "question": "What color card does a referee show for a serious foul?",
+      "options": [
+        "Yellow",
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "answer": "Red",
+      "imageUrl": "public/quiz/red-card.jpg"
+    },
+    {
+      "id": 11,
+      "question": "How many substitutions are normally allowed in a football match?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "3",
+      "imageUrl": "public/quiz/substitution.jpg"
+    },
+    {
+      "id": 12,
+      "question": "What is awarded for a foul inside the penalty area?",
+      "options": [
+        "Free kick",
+        "Penalty",
+        "Corner",
+        "Throw-in"
+      ],
+      "answer": "Penalty",
+      "imageUrl": "public/quiz/penalty.jpg"
+    },
+    {
+      "id": 13,
+      "question": "Which of these is not a football tournament?",
+      "options": [
+        "Premier League",
+        "La Liga",
+        "Grand Slam",
+        "Serie A"
+      ],
+      "answer": "Grand Slam",
+      "imageUrl": "public/quiz/tournaments.jpg"
+    },
+    {
+      "id": 14,
+      "question": "How many points is a win worth in most football leagues?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3",
+      "imageUrl": "public/quiz/league-points.jpg"
+    },
+    {
+      "id": 15,
+      "question": "Which of these is not needed to play a football match?",
+      "options": [
+        "Ball",
+        "Goals",
+        "Helmets",
+        "Referee"
+      ],
+      "answer": "Helmets",
+      "imageUrl": "public/quiz/equipment.jpg"
+    },
+    {
+      "id": 16,
+      "question": "What is the official ball size for adult football?",
+      "options": [
+        "Size 3",
+        "Size 4",
+        "Size 5",
+        "Size 6"
+      ],
+      "answer": "Size 5",
+      "imageUrl": "public/quiz/ball-size.jpg"
+    },
+    {
+      "id": 17,
+      "question": "What is the most common formation in football?",
+      "options": [
+        "4-4-2",
+        "3-5-2",
+        "5-3-2",
+        "2-3-5"
+      ],
+      "answer": "4-4-2",
+      "imageUrl": "public/quiz/formation.jpg"
+    },
+    {
+      "id": 18,
+      "question": "Which of these is not a famous football derby?",
+      "options": [
+        "El Clásico",
+        "Manchester Derby",
+        "North London Derby",
+        "New York Derby"
+      ],
+      "answer": "New York Derby",
+      "imageUrl": "public/quiz/derby.jpg"
+    },
+    {
+      "id": 19,
+      "question": "What happens when a player receives two yellow cards in one match?",
+      "options": [
+        "Nothing",
+        "Warning",
+        "Red card",
+        "Fine"
+      ],
+      "answer": "Red card",
+      "imageUrl": "public/quiz/two-yellows.jpg"
+    },
+    {
+      "id": 20,
+      "question": "Which of these is not a type of football kick?",
+      "options": [
+        "Free kick",
+        "Corner kick",
+        "Jump kick",
+        "Goal kick"
+      ],
+      "answer": "Jump kick",
+      "imageUrl": "public/quiz/kicks.jpg"
+    }
+  ],
+  "medium": [
+    {
+      "id": 21,
+      "question": "Which club does Mohamed Salah play for (as of 2025)?",
+      "options": [
+        "Liverpool",
+        "Chelsea",
+        "PSG",
+        "Barcelona"
+      ],
+      "answer": "Liverpool",
+      "imageUrl": "public/quiz/salah.jpg"
+    },
+    {
+      "id": 22,
+      "question": "Who won the Ballon d'Or in 2019?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Virgil van Dijk",
+        "Lionel Messi",
+        "Luka Modric"
+      ],
+      "answer": "Lionel Messi",
+      "imageUrl": "public/quiz/ballondor-2019.jpg"
+    },
+    {
+      "id": 23,
+      "question": "Which team is nicknamed 'The Old Lady'?",
+      "options": [
+        "Real Madrid",
+        "Juventus",
+        "AC Milan",
+        "Manchester United"
+      ],
+      "answer": "Juventus",
+      "imageUrl": "public/quiz/juventus.jpg"
+    },
+    {
+      "id": 24,
+      "question": "Which country hosted the 2014 FIFA World Cup?",
+      "options": [
+        "Brazil",
+        "Russia",
+        "Germany",
+        "South Africa"
+      ],
+      "answer": "Brazil",
+      "imageUrl": "public/quiz/brazil-2014.jpg"
+    },
+    {
+      "id": 25,
+      "question": "Which team won the UEFA Champions League in 2021?",
+      "options": [
+        "Manchester City",
+        "Chelsea",
+        "PSG",
+        "Real Madrid"
+      ],
+      "answer": "Chelsea",
+      "imageUrl": "public/quiz/chelsea-2021.jpg"
+    },
+    {
+      "id": 26,
+      "question": "Which player has the nickname 'The Egyptian King'?",
+      "options": [
+        "Mohamed Salah",
+        "Mohamed Elneny",
+        "Ahmed Hassan",
+        "Essam El-Hadary"
+      ],
+      "answer": "Mohamed Salah",
+      "imageUrl": "public/quiz/egyptian-king.jpg"
+    },
+    {
+      "id": 27,
+      "question": "Which club has won the most Premier League titles?",
+      "options": [
+        "Liverpool",
+        "Chelsea",
+        "Arsenal",
+        "Manchester United"
+      ],
+      "answer": "Manchester United",
+      "imageUrl": "public/quiz/premier-league.jpg"
+    },
+    {
+      "id": 28,
+      "question": "Who is known as 'The Special One'?",
+      "options": [
+        "Pep Guardiola",
+        "Jose Mourinho",
+        "Jurgen Klopp",
+        "Carlo Ancelotti"
+      ],
+      "answer": "Jose Mourinho",
+      "imageUrl": "public/quiz/special-one.jpg"
+    },
+    {
+      "id": 29,
+      "question": "Which club has the nickname 'The Red Devils'?",
+      "options": [
+        "Liverpool",
+        "Arsenal",
+        "Manchester United",
+        "AC Milan"
+      ],
+      "answer": "Manchester United",
+      "imageUrl": "public/quiz/red-devils.jpg"
+    },
+    {
+      "id": 30,
+      "question": "Which country won the 2016 UEFA European Championship?",
+      "options": [
+        "France",
+        "Germany",
+        "Portugal",
+        "Spain"
+      ],
+      "answer": "Portugal",
+      "imageUrl": "public/quiz/euro-2016.jpg"
+    },
+    {
+      "id": 31,
+      "question": "Which player is known for the 'Panenka' penalty technique?",
+      "options": [
+        "Antonín Panenka",
+        "Andrea Pirlo",
+        "Zinedine Zidane",
+        "Sergio Ramos"
+      ],
+      "answer": "Antonín Panenka",
+      "imageUrl": "public/quiz/paneka.jpg"
+    },
+    {
+      "id": 32,
+      "question": "Which team is nicknamed 'The Gunners'?",
+      "options": [
+        "Chelsea",
+        "Arsenal",
+        "Tottenham",
+        "West Ham"
+      ],
+      "answer": "Arsenal",
+      "imageUrl": "public/quiz/gunners.jpg"
+    },
+    {
+      "id": 33,
+      "question": "Who was the first player to win five Ballon d'Or awards?",
+      "options": [
+        "Lionel Messi",
+        "Cristiano Ronaldo",
+        "Johan Cruyff",
+        "Michel Platini"
+      ],
+      "answer": "Lionel Messi",
+      "imageUrl": "public/quiz/five-ballondor.jpg"
+    },
+    {
+      "id": 34,
+      "question": "Which club is known as 'I Rossoneri'?",
+      "options": [
+        "AS Roma",
+        "Inter Milan",
+        "AC Milan",
+        "Juventus"
+      ],
+      "answer": "AC Milan",
+      "imageUrl": "public/quiz/rossoneri.jpg"
+    },
+    {
+      "id": 35,
+      "question": "Which club has won the most UEFA Champions League/European Cup titles?",
+      "options": [
+        "Barcelona",
+        "Bayern Munich",
+        "AC Milan",
+        "Real Madrid"
+      ],
+      "answer": "Real Madrid",
+      "imageUrl": "public/quiz/champions-league-titles.jpg"
+    },
+    {
+      "id": 36,
+      "question": "What is the name of Barcelona's home stadium?",
+      "options": [
+        "Santiago Bernabéu",
+        "Camp Nou",
+        "Wanda Metropolitano",
+        "San Siro"
+      ],
+      "answer": "Camp Nou",
+      "imageUrl": "public/quiz/camp-nou.jpg"
+    },
+    {
+      "id": 37,
+      "question": "Which player has scored the most goals in a single Premier League season (38 games)?",
+      "options": [
+        "Alan Shearer",
+        "Cristiano Ronaldo",
+        "Mohamed Salah",
+        "Thierry Henry"
+      ],
+      "answer": "Mohamed Salah",
+      "imageUrl": "public/quiz/pl-record.jpg"
+    },
+    {
+      "id": 38,
+      "question": "Which team is nicknamed 'The Blues'?",
+      "options": [
+        "Manchester City",
+        "Chelsea",
+        "Everton",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "imageUrl": "public/quiz/blues.jpg"
+    },
+    {
+      "id": 39,
+      "question": "Which club has the motto 'Més que un club' (More than a club)?",
+      "options": [
+        "Real Madrid",
+        "Barcelona",
+        "Valencia",
+        "Sevilla"
+      ],
+      "answer": "Barcelona",
+      "imageUrl": "public/quiz/mes-que-un-club.jpg"
+    },
+    {
+      "id": 40,
+      "question": "Who holds the record for most appearances in the Premier League?",
+      "options": [
+        "Ryan Giggs",
+        "Frank Lampard",
+        "Gareth Barry",
+        "James Milner"
+      ],
+      "answer": "Gareth Barry",
+      "imageUrl": "public/quiz/pl-appearances.jpg"
+    }
+  ],
+  "hard": [
+    {
+      "id": 41,
+      "question": "Which club won the first ever European Cup?",
+      "options": [
+        "Real Madrid",
+        "Benfica",
+        "AC Milan",
+        "Barcelona"
+      ],
+      "answer": "Real Madrid",
+      "imageUrl": "public/quiz/first-european-cup.jpg"
+    },
+    {
+      "id": 42,
+      "question": "Who was the top scorer in the 1986 FIFA World Cup?",
+      "options": [
+        "Gary Lineker",
+        "Diego Maradona",
+        "Careca",
+        "Michel Platini"
+      ],
+      "answer": "Gary Lineker",
+      "imageUrl": "public/quiz/1986-top-scorer.jpg"
+    },
+    {
+      "id": 43,
+      "question": "Which country has appeared in three World Cup finals but never won?",
+      "options": [
+        "Netherlands",
+        "Hungary",
+        "Croatia",
+        "Czech Republic"
+      ],
+      "answer": "Netherlands",
+      "imageUrl": "public/quiz/netherlands.jpg"
+    },
+    {
+      "id": 44,
+      "question": "In what year was the first FIFA World Cup held?",
+      "options": [
+        "1930",
+        "1920",
+        "1940",
+        "1950"
+      ],
+      "answer": "1930",
+      "imageUrl": "public/quiz/first-world-cup.jpg"
+    },
+    {
+      "id": 45,
+      "question": "Who is the only player to win the World Cup three times?",
+      "options": [
+        "Pelé",
+        "Maradona",
+        "Zidane",
+        "Ronaldo"
+      ],
+      "answer": "Pelé",
+      "imageUrl": "public/quiz/pele.jpg"
+    },
+    {
+      "id": 46,
+      "question": "Which team won the first Premier League title in the 1992-93 season?",
+      "options": [
+        "Liverpool",
+        "Manchester United",
+        "Arsenal",
+        "Blackburn Rovers"
+      ],
+      "answer": "Manchester United",
+      "imageUrl": "public/quiz/first-pl-title.jpg"
+    },
+    {
+      "id": 47,
+      "question": "Who is the only player to have won the World Cup as both a player and manager?",
+      "options": [
+        "Franz Beckenbauer",
+        "Didier Deschamps",
+        "Mario Zagallo",
+        "Diego Maradona"
+      ],
+      "answer": "Franz Beckenbauer",
+      "imageUrl": "public/quiz/beckenbauer.jpg"
+    },
+    {
+      "id": 48,
+      "question": "Which club did Cristiano Ronaldo play for before joining Manchester United for the first time?",
+      "options": [
+        "Benfica",
+        "Porto",
+        "Sporting CP",
+        "Nacional"
+      ],
+      "answer": "Sporting CP",
+      "imageUrl": "public/quiz/young-ronaldo.jpg"
+    },
+    {
+      "id": 49,
+      "question": "Which player has scored the most goals in FIFA World Cup history?",
+      "options": [
+        "Miroslav Klose",
+        "Ronaldo",
+        "Pelé",
+        "Lionel Messi"
+      ],
+      "answer": "Miroslav Klose",
+      "imageUrl": "public/quiz/world-cup-goals.jpg"
+    },
+    {
+      "id": 50,
+      "question": "Who scored the 'Hand of God' goal?",
+      "options": [
+        "Diego Maradona",
+        "Lionel Messi",
+        "Thierry Henry",
+        "Luis Suárez"
+      ],
+      "answer": "Diego Maradona",
+      "imageUrl": "public/quiz/hand-of-god.jpg"
+    },
+    {
+      "id": 51,
+      "question": "Which team was the first to win the Champions League/European Cup undefeated?",
+      "options": [
+        "Ajax",
+        "Manchester United",
+        "Barcelona",
+        "AC Milan"
+      ],
+      "answer": "Ajax",
+      "imageUrl": "public/quiz/undefeated-champions.jpg"
+    },
+    {
+      "id": 52,
+      "question": "Which country hosted the 1950 FIFA World Cup final that had the largest attendance in history?",
+      "options": [
+        "Argentina",
+        "Brazil",
+        "Italy",
+        "Uruguay"
+      ],
+      "answer": "Brazil",
+      "imageUrl": "public/quiz/1950-final.jpg"
+    },
+    {
+      "id": 53,
+      "question": "Who scored the fastest hat-trick in Premier League history?",
+      "options": [
+        "Sergio Agüero",
+        "Sadio Mané",
+        "Robbie Fowler",
+        "Alan Shearer"
+      ],
+      "answer": "Sadio Mané",
+      "imageUrl": "public/quiz/fastest-hattrick.jpg"
+    },
+    {
+      "id": 54,
+      "question": "Which club was the first from London to win the Champions League/European Cup?",
+      "options": [
+        "Arsenal",
+        "Tottenham Hotspur",
+        "Chelsea",
+        "West Ham United"
+      ],
+      "answer": "Chelsea",
+      "imageUrl": "public/quiz/london-champions.jpg"
+    },
+    {
+      "id": 55,
+      "question": "Which player scored in the Champions League final for two different winning clubs?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Samuel Eto'o",
+        "Thierry Henry"
+      ],
+      "answer": "Samuel Eto'o",
+      "imageUrl": "public/quiz/etoo.jpg"
+    },
+    {
+      "id": 56,
+      "question": "Which player has the most assists in Premier League history?",
+      "options": [
+        "Ryan Giggs",
+        "Cesc Fàbregas",
+        "Frank Lampard",
+        "Steven Gerrard"
+      ],
+      "answer": "Ryan Giggs",
+      "imageUrl": "public/quiz/pl-assists.jpg"
+    },
+    {
+      "id": 57,
+      "question": "What was 'The Invincibles' team that went undefeated in the 2003-04 Premier League?",
+      "options": [
+        "Chelsea",
+        "Manchester United",
+        "Arsenal",
+        "Liverpool"
+      ],
+      "answer": "Arsenal",
+      "imageUrl": "public/quiz/invincibles.jpg"
+    },
+    {
+      "id": 58,
+      "question": "Which African player has scored the most Premier League goals?",
+      "options": [
+        "Didier Drogba",
+        "Mohamed Salah",
+        "Sadio Mané",
+        "Emmanuel Adebayor"
+      ],
+      "answer": "Mohamed Salah",
+      "imageUrl": "public/quiz/african-pl-scorer.jpg"
+    },
+    {
+      "id": 59,
+      "question": "Which player has won the most UEFA Champions League titles?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Paco Gento",
+        "Paolo Maldini"
+      ],
+      "answer": "Paco Gento",
+      "imageUrl": "public/quiz/most-cl-titles-player.jpg"
+    },
+    {
+      "id": 60,
+      "question": "Which player has the record for most international goals scored?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Ali Daei",
+        "Lionel Messi",
+        "Ferenc Puskás"
+      ],
+      "answer": "Cristiano Ronaldo",
+      "imageUrl": "public/quiz/international-goals.jpg"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "axios": "^1.8.4",
+    "framer-motion": "^12.9.2",
+    "react-feather": "^2.0.10",
+    "react-query": "^3.39.3"
+  }
+}

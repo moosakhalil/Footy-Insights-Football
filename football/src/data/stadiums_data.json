@@ -1,0 +1,305 @@
+[
+  {
+    "team": "FC Barcelona",
+    "team_logo": "/clubs/barcelona.jpg",
+    "stadium_name": "Camp Nou",
+    "capacity": 99354,
+    "location": "Barcelona, Spain",
+    "opened": 1957,
+    "renovation": "Currently undergoing major renovation (Espai Barça project)",
+    "description": "Camp Nou is the largest stadium in Europe and FC Barcelona's iconic home. Its name means 'new field' in Catalan. Known for its steep stands and electric atmosphere during El Clásico matches against Real Madrid, the stadium has witnessed legendary performances by players like Johan Cruyff, Ronaldinho, and Lionel Messi. The Espai Barça renovation project aims to modernize the venue while increasing capacity to over 100,000 spectators, incorporating cutting-edge sustainability features and improved facilities. The stadium also houses the FC Barcelona museum, one of the most visited museums in Catalonia.",
+    "images": [
+      "/stadiums/camp_nou_1.jpg",
+      "/stadiums/camp_nou_2.jpg",
+      "/stadiums/camp_nou_3.jpg"
+    ]
+  },
+  {
+    "team": "Real Madrid",
+    "team_logo": "/clubs/real.jpg",
+    "stadium_name": "Santiago Bernabéu",
+    "capacity": 81044,
+    "location": "Madrid, Spain",
+    "opened": 1947,
+    "renovation": "Major renovation completed in 2023",
+    "description": "The Santiago Bernabéu Stadium, named after the club's former president, is one of football's most prestigious venues. Located in the heart of Madrid, it recently underwent a €575 million renovation featuring a retractable roof, 360-degree video scoreboard, and a titanium façade that can display light shows. The stadium has hosted four European Cup/Champions League finals and the 1982 FIFA World Cup final. It's renowned for its 'magic nights' where Real Madrid has staged incredible comebacks, especially in European competitions. The venue includes the club's trophy room displaying their record 14 European Cups/Champions League trophies.",
+    "images": [
+      "/stadiums/bernabeu_1.jpg",
+      "/stadiums/bernabeu_2.jpg",
+      "/stadiums/bernabeu_3.jpg"
+    ]
+  },
+  {
+    "team": "Manchester United",
+    "team_logo": "/clubs/MU.jpg",
+    "stadium_name": "Old Trafford",
+    "capacity": 74310,
+    "location": "Manchester, England",
+    "opened": 1910,
+    "renovation": "Last major renovation in 2006",
+    "description": "Known as 'The Theatre of Dreams' (a nickname given by Bobby Charlton), Old Trafford has been Manchester United's home for over 110 years. The stadium survived bombing during World War II and was rebuilt. Its most recognizable feature is the Sir Alex Ferguson Stand (formerly North Stand) with 'Manchester United' spelled out in white seats. The stadium features statues of United legends including Sir Alex Ferguson, Sir Matt Busby, and the 'United Trinity' of Best, Law, and Charlton. With its imposing structure and rich history, Old Trafford embodies the heritage of England's most successful club. The stadium hosted matches during the 1966 World Cup and Euro 96.",
+    "images": [
+      "/stadiums/old_trafford_1.jpg",
+      "/stadiums/old_trafford_2.jpg",
+      "/stadiums/old_trafford_3.jpg"
+    ]
+  },
+  {
+    "team": "Bayern Munich",
+    "team_logo": "/clubs/bayren.jpg",
+    "stadium_name": "Allianz Arena",
+    "capacity": 75024,
+    "location": "Munich, Germany",
+    "opened": 2005,
+    "renovation": "Expanded in 2015",
+    "description": "The Allianz Arena is one of football's most distinctive stadiums with its unique exterior of inflated ETFE plastic panels that can be illuminated in different colors. The stadium glows red when Bayern plays, white for national team matches, and blue when 1860 Munich used to play there. Built for the 2006 World Cup, it features Europe's largest parking garage and is considered one of the most modern football venues in the world. Its steep stands create an intimidating atmosphere for opposing teams. The full bowl design ensures excellent visibility from all seats, while the roof keeps spectators protected from the elements without casting shadows on the pitch.",
+    "images": [
+      "/stadiums/allianz_arena_1.jpg",
+      "/stadiums/allianz_arena_2.jpg",
+      "/stadiums/allianz_arena_3.jpg"
+    ]
+  },
+  {
+    "team": "Borussia Dortmund",
+    "team_logo": "/clubs/dortmund.jpg",
+    "stadium_name": "Signal Iduna Park",
+    "capacity": 81365,
+    "location": "Dortmund, Germany",
+    "opened": 1974,
+    "renovation": "Expanded in 2003",
+    "description": "Signal Iduna Park (still commonly called Westfalenstadion by fans) is famous for its 'Yellow Wall' – the south stand that holds 25,000 standing fans, making it Europe's largest single-tier stand. This creates one of football's most intimidating and visually stunning atmospheres. The stadium features distinctive yellow pylons and has undergone several expansions since hosting matches in the 1974 World Cup. During Bundesliga matches, the terraces are packed with standing fans, but UEFA competitions require all-seater configurations, reducing capacity. The stadium's intense atmosphere has been credited with giving Dortmund a significant home advantage, with the crowd noise levels among the highest recorded at any sporting venue.",
+    "images": [
+      "/stadiums/signal_iduna_park_1.jpg",
+      "/stadiums/signal_iduna_park_2.jpg",
+      "/stadiums/signal_iduna_park_3.jpg"
+    ]
+  },
+  {
+    "team": "Liverpool FC",
+    "team_logo": "/clubs/liverpool.jpg",
+    "stadium_name": "Anfield",
+    "capacity": 61276,
+    "location": "Liverpool, England",
+    "opened": 1884,
+    "renovation": "Main Stand expanded in 2016, Anfield Road Stand expanded in 2023",
+    "description": "Anfield is renowned for its special atmosphere, particularly on European nights. The stadium's most famous feature is the Kop stand, named after a hill in South Africa where many Liverpool soldiers died in battle. Before matches, fans sing 'You'll Never Walk Alone' to create one of football's most emotional spectacles. Recent expansions have modernized the venue while maintaining its intimate feel and historical character. The stadium features the Bill Shankly and Bob Paisley gates, honoring Liverpool's legendary managers, and the eternal flame memorial to the 97 fans who lost their lives in the Hillsborough disaster. The recent Anfield Road expansion has increased capacity while adding premium facilities.",
+    "images": [
+      "/stadiums/anfield_1.jpg",
+      "/stadiums/anfield_2.jpg",
+      "/stadiums/anfield_3.jpg"
+    ]
+  },
+  {
+    "team": "AC Milan & Inter Milan",
+    "team_logo": {
+      
+      "Inter Milan": "/clubs/internazionale.jpg"
+    },
+    "stadium_name": "San Siro (Giuseppe Meazza)",
+    "capacity": 75923,
+    "location": "Milan, Italy",
+    "opened": 1926,
+    "renovation": "Last major renovation for 1990 World Cup",
+    "description": "The San Siro, officially named Stadio Giuseppe Meazza after Italy's two-time World Cup winner, is one of few stadiums in world football shared by two major clubs. Its most distinctive features are the eleven cylindrical towers that support the roof and the spiral ramps that allow fans to reach the upper tiers. The stadium has hosted three European Cup finals and six matches during the 1990 World Cup, including the opening game. The San Siro is known for its steep stands that create an imposing wall of fans and its excellent acoustics that amplify crowd noise. Both Milan clubs have plans to eventually replace the historic venue with a new stadium.",
+    "images": [
+      "/stadiums/san_siro_1.jpg",
+      "/stadiums/san_siro_2.jpg",
+      "/stadiums/san_siro_3.jpg"
+    ]
+  },
+  {
+    "team": "Tottenham Hotspur",
+    "team_logo": "/clubs/tott.jpg",
+    "stadium_name": "Tottenham Hotspur Stadium",
+    "capacity": 62850,
+    "location": "London, England",
+    "opened": 2019,
+    "renovation": "N/A (New stadium)",
+    "description": "The Tottenham Hotspur Stadium is considered one of the most technologically advanced sports venues in the world. Its unique features include a retractable pitch that reveals an NFL-standard artificial surface beneath (the stadium hosts NFL London games), the UK's longest bar (The Goal Line Bar), and a microbrewery. The south stand is a single-tier structure inspired by Borussia Dortmund's 'Yellow Wall', designed to maximize atmosphere. The stadium's acoustics were specifically engineered to amplify noise, with the curved roof panels reflecting sound back onto the pitch. Sustainability features include rainwater harvesting and LED lighting throughout, making it one of the greenest venues in sports.",
+    "images": [
+      "/stadiums/tottenham_stadium_1.jpg",
+      "/stadiums/tottenham_stadium_2.jpg",
+      "/stadiums/tottenham_stadium_3.jpg"
+    ]
+  },
+  {
+    "team": "Paris Saint-Germain",
+    "team_logo": "/clubs/psg.jpg",
+    "stadium_name": "Parc des Princes",
+    "capacity": 47929,
+    "location": "Paris, France",
+    "opened": 1972,
+    "renovation": "Renovated in 2016",
+    "description": "The Parc des Princes has been PSG's home since the club's formation in 1970. Before that, it was primarily a velodrome and cycling venue. The stadium's distinctive design features a unique roof structure that appears to float above the seating bowl, creating excellent acoustics. Located in the 16th arrondissement of Paris, the venue has hosted European Cup finals in 1956, 1975, and 1981. The Auteuil end of the stadium houses the club's ultras groups who create vibrant tifo displays and maintain a constant atmosphere during matches. While relatively small compared to other elite European club stadiums, its intimate design puts fans close to the action.",
+    "images": [
+      "/stadiums/parc_des_princes_1.jpg",
+      "/stadiums/parc_des_princes_2.jpg",
+      "/stadiums/parc_des_princes_3.jpg"
+    ]
+  },
+  {
+    "team": "Juventus",
+    "team_logo": "/clubs/juventus.jpg",
+    "stadium_name": "Allianz Stadium",
+    "capacity": 41507,
+    "location": "Turin, Italy",
+    "opened": 2011,
+    "renovation": "N/A (Modern stadium)",
+    "description": "The Allianz Stadium (originally called Juventus Stadium) was the first modern, club-owned stadium in Serie A, breaking from Italy's tradition of municipal-owned venues. Built on the site of the old Stadio delle Alpi, it features a distinctive design with two arched roof supports that form a visual signature. The stadium is known for bringing fans much closer to the pitch than other Italian venues, with just 7.5 meters from the first row to the field. An innovative feature is the continuous glass perimeter that allows natural light to flood the interior. The venue includes the J-Museum documenting Juventus' rich history and has been credited with significantly increasing the club's matchday revenue and creating a more intense atmosphere than their previous home.",
+    "images": [
+      "/stadiums/juventus_stadium_1.jpg",
+      "/stadiums/juventus_stadium_2.jpg",
+      "/stadiums/juventus_stadium_3.jpg"
+    ]
+  },
+  {
+    "team": "Arsenal",
+    "team_logo": "/clubs/Arsenal.png",
+    "stadium_name": "Emirates Stadium",
+    "capacity": 60704,
+    "location": "London, England",
+    "opened": 2006,
+    "renovation": "N/A (Modern stadium)",
+    "description": "The Emirates Stadium replaced Arsenal's historic Highbury ground in 2006 and was a pioneer among the new generation of English football venues. Its distinctive bowl design features sweeping curves and a translucent polycarbonate roof that allows natural light to reach the pitch. The stadium's interior celebrates Arsenal's rich history with its 'Arsenalisation' project, featuring statues of club legends Herbert Chapman, Tony Adams, Thierry Henry, and Dennis Bergkamp outside the ground. The concourses display murals and historical imagery from the club's past. While initially criticized for lacking atmosphere compared to Highbury, recent acoustic improvements and evolving fan culture have addressed these concerns. The venue regularly hosts international matches and concerts in the off-season.",
+    "images": [
+      "/stadiums/emirates_stadium_1.jpg",
+      "/stadiums/emirates_stadium_2.jpg",
+      "/stadiums/emirates_stadium_3.jpg"
+    ]
+  },
+  {
+    "team": "Atletico Madrid",
+    "team_logo": "/clubs/atl.jpg",
+    "stadium_name": "Wanda Metropolitano",
+    "capacity": 68456,
+    "location": "Madrid, Spain",
+    "opened": 2017,
+    "renovation": "N/A (New stadium)",
+    "description": "The Wanda Metropolitano replaced Atlético's beloved Vicente Calderón stadium in 2017. The stadium's most distinctive feature is its unique roof design - a lightweight membrane structure covering all seats that appears to float above the stands. The venue incorporates elements from the old stadium, including the Neptune Fountain replica (where fans celebrate titles) and seats from the Calderón installed in a special fan zone. The stadium hosted the 2019 UEFA Champions League final between Liverpool and Tottenham. Its design emphasizes the club's traditional colors, with red and white seats creating patterns across the stands. The stadium was partially built upon a previous Olympic venue and features a 360-degree video scoreboard ring, advanced LED lighting, and one of the largest club stores in Europe.",
+    "images": [
+      "/stadiums/wanda_metropolitano_1.jpg",
+      "/stadiums/wanda_metropolitano_2.jpg",
+      "/stadiums/wanda_metropolitano_3.jpg"
+    ]
+  },
+  {
+    "team": "Flamengo",
+    "team_logo": "/clubs/flamengo.jpg",
+    "stadium_name": "Maracanã",
+    "capacity": 78838,
+    "location": "Rio de Janeiro, Brazil",
+    "opened": 1950,
+    "renovation": "Major renovation for 2014 World Cup",
+    "description": "The Maracanã is one of football's most legendary venues, originally built for the 1950 World Cup where it hosted the infamous 'Maracanazo' final in which Uruguay defeated Brazil. While no longer the largest stadium in the world as it once was (with attendance up to 200,000 in its early years), it remains Brazil's football cathedral. The stadium underwent extensive renovations for the 2014 World Cup and 2016 Olympics, modernizing facilities while preserving its iconic circular design. Although technically a municipal stadium shared by several Rio clubs, it's most associated with Flamengo, Brazil's most popular team. The venue's name comes from the Maracanã River, and it's located in a neighborhood of the same name. The stadium features a Walk of Fame honoring legends like Pelé and Garrincha.",
+    "images": [
+      "/stadiums/maracana_1.jpg",
+      "/stadiums/maracana_2.jpg",
+      "/stadiums/maracana_3.jpg"
+    ]
+  },
+  {
+    "team": "Boca Juniors",
+    "team_logo": "/clubs/juniors.jpg",
+    "stadium_name": "La Bombonera",
+    "capacity": 54000,
+    "location": "Buenos Aires, Argentina",
+    "opened": 1940,
+    "renovation": "Last major renovation in 1996",
+    "description": "La Bombonera (officially Estadio Alberto J. Armando) earned its nickname 'The Chocolate Box' due to its unique shape - three conventional stands and one flat stand, giving it a D-shape. This unusual design was necessary due to space constraints in Buenos Aires' La Boca neighborhood. The stadium is famous for the 'Bombonera effect' where fans jumping in unison cause the structure to visibly shake. The steep terraces put fans right on top of the action, creating one of football's most intimidating atmospheres, especially during Superclásico matches against River Plate. The exterior features colorful murals reflecting the artistic heritage of the La Boca district. The stadium museum houses memorabilia from Boca legends including Diego Maradona, who called this venue his football home.",
+    "images": [
+      "/stadiums/la_bombonera_1.jpg",
+      "/stadiums/la_bombonera_2.jpg",
+      "/stadiums/la_bombonera_3.jpg"
+    ]
+  },
+  {
+    "team": "Ajax",
+    "team_logo": "/clubs/ajax.jpg",
+    "stadium_name": "Johan Cruyff Arena",
+    "capacity": 55865,
+    "location": "Amsterdam, Netherlands",
+    "opened": 1996,
+    "renovation": "Renovated in 2018",
+    "description": "The Johan Cruyff Arena (formerly Amsterdam Arena) was the first stadium in Europe with a retractable roof. Named after Ajax and Dutch football legend Johan Cruyff in 2018, the venue pioneered many sustainability features that are now common in modern stadiums. It uses a combination of wind turbines, solar panels and a battery storage system utilizing second-life electric vehicle batteries. The stadium has hosted Champions League finals and European Championship matches. Its location above a highway and railway station created engineering challenges that influenced its distinctive design. The venue integrates with Amsterdam's public transport network and forms part of a larger entertainment district. The stadium houses the Ajax museum and maintains traditions from the club's former home, De Meer Stadium.",
+    "images": [
+      "/stadiums/johan_cruyff_arena_1.jpg",
+      "/stadiums/johan_cruyff_arena_2.jpg",
+      "/stadiums/johan_cruyff_arena_3.jpg"
+    ]
+  },
+  {
+    "team": "Celtic",
+    "team_logo": "/clubs/celtic.jpg",
+    "stadium_name": "Celtic Park",
+    "capacity": 60411,
+    "location": "Glasgow, Scotland",
+    "opened": 1892,
+    "renovation": "Modernized in 1998",
+    "description": "Celtic Park, affectionately known as 'Paradise' to fans, is the largest football stadium in Scotland and one of the oldest continuously used venues in world football. The stadium is renowned for its atmosphere, particularly during Old Firm derbies against Rangers and European nights, with Liverpool manager Jürgen Klopp calling it the most intense atmosphere he'd experienced. The North Stand houses the 'Green Brigade' ultras section, known for elaborate tifo displays and constant singing. Outside the main entrance stands a statue of club founder Brother Walfrid alongside legendary manager Jock Stein and captain Billy McNeill lifting the European Cup from Celtic's historic 1967 victory. The stadium's rebuild in the 1990s transformed it into an all-seater venue while retaining its intimidating atmosphere.",
+    "images": [
+      "/stadiums/celtic_park_1.jpg",
+      "/stadiums/celtic_park_2.jpg",
+      "/stadiums/celtic_park_3.jpg"
+    ]
+  },
+  {
+    "team": "River Plate",
+    "team_logo": "/clubs/river.jpg",
+    "stadium_name": "El Monumental",
+    "capacity": 83214,
+    "location": "Buenos Aires, Argentina",
+    "opened": 1938,
+    "renovation": "Renovated in 2021-2023",
+    "description": "El Monumental (officially Estadio Más Monumental after recent renovations) is the largest stadium in Argentina and home to River Plate. It hosted the 1978 World Cup Final and regularly hosts Argentina national team matches. The stadium's recent renovation has modernized the venue by removing the athletic track, bringing fans closer to the pitch, and increasing capacity. Located in the Núñez neighborhood of Buenos Aires, its grand scale stands in contrast to the compact La Bombonera of rivals Boca Juniors. The stadium features a museum chronicling River Plate's rich history. Its four distinct stands are named after key figures in the club's history: Sívori, Labruna, Dragó, and Del Montí. The venue is famous for the 'River Plate pressure' created by the passionate crowd that fills the steep stands.",
+    "images": [
+      "/stadiums/el_monumental_1.jpg",
+      "/stadiums/el_monumental_2.jpg",
+      "/stadiums/el_monumental_3.jpg"
+    ]
+  },
+  {
+    "team": "Benfica",
+    "team_logo": "/clubs/benfica.jpg",
+    "stadium_name": "Estádio da Luz",
+    "capacity": 64642,
+    "location": "Lisbon, Portugal",
+    "opened": 2003,
+    "renovation": "N/A (Modern stadium)",
+    "description": "Estádio da Luz (Stadium of Light) is named after its predecessor that held nearly 120,000 fans. The current venue was built for Euro 2004 and hosted the tournament's final. The stadium's most distinctive feature is its roof design, supported by four large arches that create the appearance of a giant crown. The venue is adorned with tributes to Benfica's greatest teams, particularly the sides that won back-to-back European Cups in the 1960s led by Eusébio. Before each match, a trained eagle (the club's symbol) flies around the stadium before landing on the Benfica crest at midfield. Located in northwest Lisbon, the stadium is part of a complex that includes the Benfica museum, team offices, and a shopping center. It hosted the 2014 and 2020 Champions League finals.",
+    "images": [
+      "/stadiums/estadio_da_luz_1.jpg",
+      "/stadiums/estadio_da_luz_2.jpg",
+      "/stadiums/estadio_da_luz_3.jpg"
+    ]
+  },
+  {
+    "team": "Manchester City",
+    "team_logo": "/clubs/manchester_city.jpg",
+    "stadium_name": "Etihad Stadium",
+    "capacity": 53400,
+    "location": "Manchester, England",
+    "opened": 2002,
+    "renovation": "Expanded in 2015",
+    "description": "The Etihad Stadium was originally built for the 2002 Commonwealth Games before being converted for football. Its distinctive design features a unique suspended roof held by external masts and cables, eliminating the need for pillars that would obstruct views. The stadium sits at the heart of the expanding Etihad Campus, which includes the City Football Academy training facilities and youth development center. Recent expansion has seen the South Stand extended, with similar plans for the North Stand to increase capacity further. The stadium features innovative touches like the circular players' tunnel and the 'Walk of Pride' that showcases the club's achievements. The venue has excellent acoustics, with a partial roof design that keeps crowd noise within the bowl while allowing natural light to reach the pitch.",
+    "images": [
+      "/stadiums/etihad_stadium_1.jpg",
+      "/stadiums/etihad_stadium_2.jpg",
+      "/stadiums/etihad_stadium_3.jpg"
+    ]
+  },
+  {
+    "team": "Chelsea",
+    "team_logo": "/clubs/chelsea.jpg",
+    "stadium_name": "Stamford Bridge",
+    "capacity": 40341,
+    "location": "London, England",
+    "opened": 1877,
+    "renovation": "Last major renovation in 2001",
+    "description": "Stamford Bridge is one of England's oldest major stadiums, predating Chelsea Football Club itself. Originally built as an athletics venue, it was offered to Fulham FC before Chelsea was formed to play there in 1905. The stadium is unique among major English venues as it once featured a running track and hosted greyhound racing and speedway. Unlike many modern bowls, Stamford Bridge has four distinct stands: the Matthew Harding Stand, East Stand, Shed End, and West Stand, each with its own character and history. The venue is nestled in an affluent residential area of west London, which has complicated expansion plans over the years. The stadium complex includes two hotels, restaurants, and the Chelsea Museum. Despite being one of the Premier League's smaller major venues, its central London location and history make it one of English football's most iconic grounds.",
+    "images": [
+      "/stadiums/stamford_bridge_1.jpg",
+      "/stadiums/stamford_bridge_2.jpg",
+      "/stadiums/stamford_bridge_3.jpg"
+    ]
+  }
+]

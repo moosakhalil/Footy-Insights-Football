@@ -1,0 +1,287 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.standings-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Sidebar */
+.standings-sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: var(--card-bg);
+    padding-top: 20px;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    transition: background-color 0.3s ease;
+}
+
+.standings-sidebar-title {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.standings-league-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+    color: var(--text-primary);
+    margin: 5px 10px;
+}
+
+.standings-league-item:hover {
+    background-color: var(--bg-secondary);
+    transform: scale(1.02);
+}
+
+.standings-league-item.active {
+    background-color: var(--accent-color);
+    font-weight: bold;
+    color: white;
+}
+
+.standings-league-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Main Content */
+.standings-content {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* League Header with Icon */
+.standings-league-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.standings-league-header-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.standings-heading {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+/* Table */
+.standings-table {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    table-layout: fixed; /* Added to ensure consistent column widths */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.standings-table th, .standings-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.standings-table th {
+    background-color: var(--accent-color);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Set column widths */
+.standings-table th:nth-child(1), 
+.standings-table td:nth-child(1) {
+    width: 8%;
+}
+
+.standings-table th:nth-child(2), 
+.standings-table td:nth-child(2) {
+    width: 28%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.standings-table th:nth-child(3), 
+.standings-table td:nth-child(3),
+.standings-table th:nth-child(4), 
+.standings-table td:nth-child(4),
+.standings-table th:nth-child(5), 
+.standings-table td:nth-child(5),
+.standings-table th:nth-child(6), 
+.standings-table td:nth-child(6),
+.standings-table th:nth-child(7), 
+.standings-table td:nth-child(7),
+.standings-table th:nth-child(8), 
+.standings-table td:nth-child(8),
+.standings-table th:nth-child(9), 
+.standings-table td:nth-child(9) {
+    width: 7%;
+}
+
+.standings-table th:nth-child(10), 
+.standings-table td:nth-child(10) {
+    width: 8%;
+    font-weight: bold;
+}
+
+/* Add full-width border to rows */
+.standings-table tr {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.standings-table tr:last-child {
+    border-bottom: none;
+}
+
+/* Remove individual cell borders to avoid double borders */
+.standings-table td {
+    border-bottom: none;
+    color: var(--text-primary);
+}
+
+.standings-table tr:hover {
+    background-color: var(--bg-secondary);
+}
+
+.standings-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Team Column Header */
+.standings-team-column-header {
+    text-align: left !important;
+    padding-left: 20px;
+}
+
+/* Position and Points */
+.standings-position, .standings-points {
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+/* Team Cell with Logo */
+.standings-team-cell {
+    display: flex;
+    align-items: center;
+    color: var(--text-primary);
+}
+
+.standings-team-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.standings-team-name {
+    font-weight: normal;
+}
+
+/* Champions League and Relegation highlighting */
+.champions-league {
+    background-color: rgba(173, 216, 230, 0.2);
+}
+
+.relegation {
+    background-color: rgba(255, 192, 203, 0.2);
+}
+
+/* Loading & Error Messages */
+.standings-loading, .standings-error {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4facfe;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .standings-container {
+        flex-direction: column;
+    }
+
+    .standings-sidebar {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        overflow-y: scroll;
+        position: relative;
+    }
+
+    .standings-content {
+        padding: 15px;
+    }
+
+    .standings-table {
+        font-size: 13px;
+    }
+    
+    .standings-team-logo {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+    .standings-league-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .standings-league-header-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .standings-heading {
+        font-size: 24px;
+    }
+}

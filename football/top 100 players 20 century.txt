@@ -1,0 +1,1006 @@
+[
+  {
+    "ranking": 1,
+    "player": "Pelé",
+    "points": 5499,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 2,
+    "player": "Diego Maradona",
+    "points": 3949,
+    "national_teams": ["Argentina"],
+    "country_flag": {
+      "emoji": "🇦🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    }
+  },
+  {
+    "ranking": 3,
+    "player": "Johan Cruyff",
+    "points": 3388,
+    "national_teams": ["Netherlands"],
+    "country_flag": {
+      "emoji": "🇳🇱",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+    }
+  },
+  {
+    "ranking": 4,
+    "player": "Franz Beckenbauer",
+    "points": 2780,
+    "national_teams": ["West Germany"],
+    "country_flag": {
+      "emoji": "🇩🇪",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+    }
+  },
+  {
+    "ranking": 5,
+    "player": "Michel Platini",
+    "points": 1854,
+    "national_teams": ["France"],
+    "country_flag": {
+      "emoji": "🇫🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  },
+  {
+    "ranking": 6,
+    "player": "Alfredo Di Stéfano",
+    "points": 1541,
+    "national_teams": ["Argentina", "Spain"],
+    "country_flag": {
+      "emoji": "🇦🇷🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    }
+  },
+  {
+    "ranking": 7,
+    "player": "Ferenc Puskás",
+    "points": 1537,
+    "national_teams": ["Hungary", "Spain"],
+    "country_flag": {
+      "emoji": "🇭🇺🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/1280px-Flag_of_Hungary.svg.png"
+    }
+  },
+  {
+    "ranking": 8,
+    "player": "George Best",
+    "points": 1190,
+    "national_teams": ["Northern Ireland"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Flag_of_Northern_Ireland.svg"
+    }
+  },
+  {
+    "ranking": 9,
+    "player": "Marco van Basten",
+    "points": 1026,
+    "national_teams": ["Netherlands"],
+    "country_flag": {
+      "emoji": "🇳🇱",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+    }
+  },
+  {
+    "ranking": 10,
+    "player": "Eusébio Ferreira da Silva",
+    "points": 1022,
+    "national_teams": ["Portugal"],
+    "country_flag": {
+      "emoji": "🇵🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Portugal.svg"
+    }
+  },
+  {
+    "ranking": 11,
+    "player": "Lev Yashin",
+    "points": 821,
+    "national_teams": ["U.S.S.R."],
+    "country_flag": {
+      "emoji": "🇷🇺",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_the_Soviet_Union.svg/2560px-Flag_of_the_Soviet_Union.svg.png"
+    }
+  },
+  {
+    "ranking": 12,
+    "player": "Bobby Charlton",
+    "points": 680,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 13,
+    "player": "Ronaldo",
+    "points": 541,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 14,
+    "player": "Bobby Moore",
+    "points": 539,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 15,
+    "player": "Gerd Muller",
+    "points": 498,
+    "national_teams": ["West Germany"],
+    "country_flag": {
+      "emoji": "🇩🇪",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+    }
+  },
+  {
+    "ranking": 16,
+    "player": "Roberto Baggio",
+    "points": 486,
+    "national_teams": ["Italy"],
+    "country_flag": {
+      "emoji": "🇮🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    }
+  },
+  {
+    "ranking": 17,
+    "player": "Stanley Matthews",
+    "points": 429,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 18,
+    "player": "Zico",
+    "points": 390,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 19,
+    "player": "Franco Baresi",
+    "points": 371,
+    "national_teams": ["Italy"],
+    "country_flag": {
+      "emoji": "🇮🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    }
+  },
+  {
+    "ranking": 20,
+    "player": "Garrincha",
+    "points": 361,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 21,
+    "player": "Paolo Maldini",
+    "points": 345,
+    "national_teams": ["Italy"],
+    "country_flag": {
+      "emoji": "🇮🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    }
+  },
+  {
+    "ranking": 22,
+    "player": "Kenny Dalglish",
+    "points": 334,
+    "national_teams": ["Scotland"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg"
+    }
+  },
+  {
+    "ranking": 23,
+    "player": "Gabriel Batistuta",
+    "points": 300,
+    "national_teams": ["Argentina"],
+    "country_flag": {
+      "emoji": "🇦🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    }
+  },
+  {
+    "ranking": 24,
+    "player": "Eric Cantona",
+    "points": 299,
+    "national_teams": ["France"],
+    "country_flag": {
+      "emoji": "🇫🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  },
+  {
+    "ranking": 25,
+    "player": "Gheorghe Hagi",
+    "points": 293,
+    "national_teams": ["Romania"],
+    "country_flag": {
+      "emoji": "🇷🇴",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/2560px-Flag_of_Romania.svg.png"
+    }
+  },
+  {
+    "ranking": 26,
+    "player": "Romario",
+    "points": 257,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 27,
+    "player": "Jairzinho",
+    "points": 248,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 28,
+    "player": "Zinedine Zidane",
+    "points": 238,
+    "national_teams": ["France"],
+    "country_flag": {
+      "emoji": "🇫🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  }
+]
+[
+  {
+    "ranking": 29,
+    "player": "Ruud Gullit",
+    "points": 221,
+    "national_teams": ["Netherlands"],
+    "country_flag": {
+      "emoji": "🇳🇱",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+    }
+  },
+  {
+    "ranking": 30,
+    "player": "John Charles",
+    "points": 212,
+    "national_teams": ["Wales"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg"
+    }
+  },
+  {
+    "ranking": 31,
+    "player": "Lothar Matthäus",
+    "points": 202,
+    "national_teams": ["West Germany", "Germany"],
+    "country_flag": {
+      "emoji": "🇩🇪",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+    }
+  },
+  {
+    "ranking": 32,
+    "player": "Gordon Banks",
+    "points": 178,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 33,
+    "player": "Jürgen Klinsmann",
+    "points": 168,
+    "national_teams": ["Germany"],
+    "country_flag": {
+      "emoji": "🇩🇪",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+    }
+  },
+  {
+    "ranking": 34,
+    "player": "Dennis Bergkamp",
+    "points": 150,
+    "national_teams": ["Netherlands"],
+    "country_flag": {
+      "emoji": "🇳🇱",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+    }
+  },
+  {
+    "ranking": 35,
+    "player": "Karl-Heinz Rummenigge",
+    "points": 149,
+    "national_teams": ["West Germany"],
+    "country_flag": {
+      "emoji": "🇩🇪",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+    }
+  },
+  {
+    "ranking": 36,
+    "player": "Gary Lineker",
+    "points": 134,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 37,
+    "player": "Giuseppe Meazza",
+    "points": 132,
+    "national_teams": ["Italy"],
+    "country_flag": {
+      "emoji": "🇮🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    }
+  },
+  {
+    "ranking": 38,
+    "player": "Rivelino",
+    "points": 124,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 39,
+    "player": "Didi",
+    "points": 123,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 40,
+    "player": "Ian Rush",
+    "points": 109,
+    "national_teams": ["Wales"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg"
+    }
+  },
+  {
+    "ranking": 41,
+    "player": "Peter Schmeichel",
+    "points": 104,
+    "national_teams": ["Denmark"],
+    "country_flag": {
+      "emoji": "🇩🇰",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
+    }
+  },
+  {
+    "ranking": 42,
+    "player": "Paolo Rossi",
+    "points": 103,
+    "national_teams": ["Italy"],
+    "country_flag": {
+      "emoji": "🇮🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    }
+  },
+  {
+    "ranking": 43,
+    "player": "George Weah",
+    "points": 99,
+    "national_teams": ["Liberia"],
+    "country_flag": {
+      "emoji": "🇱🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Flag_of_Liberia.svg"
+    }
+  },
+  {
+    "ranking": 44,
+    "player": "Michael Owen",
+    "points": 90,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 45,
+    "player": "Just Fontaine",
+    "points": 88,
+    "national_teams": ["France"],
+    "country_flag": {
+      "emoji": "🇫🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  },
+  {
+    "ranking": 46,
+    "player": "Duncan Edwards",
+    "points": 86,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 47,
+    "player": "Dino Zoff",
+    "points": 80,
+    "national_teams": ["Italy"],
+    "country_flag": {
+      "emoji": "🇮🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    }
+  },
+  {
+    "ranking": 48,
+    "player": "Hristo Stoichkov",
+    "points": 77,
+    "national_teams": ["Bulgaria"],
+    "country_flag": {
+      "emoji": "🇧🇬",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg"
+    }
+  },
+  {
+    "ranking": 49,
+    "player": "David Beckham",
+    "points": 74,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 50,
+    "player": "Tom Finney",
+    "points": 72,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 51,
+    "player": "Rivaldo",
+    "points": 71,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 52,
+    "player": "Claudio Caniggia",
+    "points": 64,
+    "national_teams": ["Argentina"],
+    "country_flag": {
+      "emoji": "🇦🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    }
+  },
+  {
+    "ranking": 53,
+    "player": "Totao",
+    "points": 63,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 54,
+    "player": "Frank Rijkaard",
+    "points": 62,
+    "national_teams": ["Netherlands"],
+    "country_flag": {
+      "emoji": "🇳🇱",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+    }
+  },
+  {
+    "ranking": 55,
+    "player": "José Luis Chilavert",
+    "points": 61,
+    "national_teams": ["Paraguay"],
+    "country_flag": {
+      "emoji": "🇵🇾",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Paraguay.svg"
+    }
+  },
+  {
+    "ranking": 56,
+    "player": "Kevin Keegan",
+    "points": 60,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 57,
+    "player": "Paul Gascoigne",
+    "points": 57,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 58,
+    "player": "Roger Milla",
+    "points": 56,
+    "national_teams": ["Cameroon"],
+    "country_flag": {
+      "emoji": "🇨🇲",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg"
+    }
+  },
+  {
+    "ranking": 59,
+    "player": "Michael Laudrup",
+    "points": 55,
+    "national_teams": ["Denmark"],
+    "country_flag": {
+      "emoji": "🇩🇰",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
+    }
+  },
+  {
+    "ranking": 60,
+    "player": "Andriy Shevchenko",
+    "points": 54,
+    "national_teams": ["Ukraine"],
+    "country_flag": {
+      "emoji": "🇺🇦",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg"
+    }
+  },
+  {
+    "ranking": 61,
+    "player": "David Ginola",
+    "points": 53,
+    "national_teams": ["France"],
+    "country_flag": {
+      "emoji": "🇫🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  },
+  {
+    "ranking": 62,
+    "player": "Glenn Hoddle",
+    "points": 53,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 63,
+    "player": "Socrates",
+    "points": 52,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 64,
+    "player": "Roberto Carlos",
+    "points": 52,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 65,
+    "player": "Alan Shearer",
+    "points": 51,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 66,
+    "player": "Daniel Passarella",
+    "points": 51,
+    "national_teams": ["Argentina"],
+    "country_flag": {
+      "emoji": "🇦🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    }
+  }
+]
+[
+  {
+    "ranking": 67,
+    "player": "Johan Neeskens",
+    "points": 50,
+    "national_teams": ["Netherlands"],
+    "country_flag": {
+      "emoji": "🇳🇱",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+    }
+  },
+  {
+    "ranking": 68,
+    "player": "Marco van Basten",
+    "points": 49,
+    "national_teams": ["Netherlands"],
+    "country_flag": {
+      "emoji": "🇳🇱",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+    }
+  },
+  {
+    "ranking": 69,
+    "player": "Luis Suárez Miramontes",
+    "points": 48,
+    "national_teams": ["Spain"],
+    "country_flag": {
+      "emoji": "🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/a9/Flag_of_Spain.svg"
+    }
+  },
+  {
+    "ranking": 70,
+    "player": "Bobby Charlton",
+    "points": 47,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 71,
+    "player": "Jean-Pierre Papin",
+    "points": 46,
+    "national_teams": ["France"],
+    "country_flag": {
+      "emoji": "🇫🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  },
+  {
+    "ranking": 72,
+    "player": "Franz Beckenbauer",
+    "points": 45,
+    "national_teams": ["West Germany", "Germany"],
+    "country_flag": {
+      "emoji": "🇩🇪",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+    }
+  },
+  {
+    "ranking": 73,
+    "player": "Jairzinho",
+    "points": 44,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 74,
+    "player": "Samuel Eto'o",
+    "points": 43,
+    "national_teams": ["Cameroon"],
+    "country_flag": {
+      "emoji": "🇨🇲",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg"
+    }
+  },
+  {
+    "ranking": 75,
+    "player": "Michel Platini",
+    "points": 42,
+    "national_teams": ["France"],
+    "country_flag": {
+      "emoji": "🇫🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  },
+  {
+    "ranking": 76,
+    "player": "Gerd Müller",
+    "points": 41,
+    "national_teams": ["West Germany", "Germany"],
+    "country_flag": {
+      "emoji": "🇩🇪",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+    }
+  },
+  {
+    "ranking": 77,
+    "player": "Zico",
+    "points": 40,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  },
+  {
+    "ranking": 78,
+    "player": "Raúl González",
+    "points": 39,
+    "national_teams": ["Spain"],
+    "country_flag": {
+      "emoji": "🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/a9/Flag_of_Spain.svg"
+    }
+  },
+  {
+    "ranking": 79,
+    "player": "George Best",
+    "points": 38,
+    "national_teams": ["Northern Ireland"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg"
+    }
+  },
+  {
+    "ranking": 80,
+    "player": "Yashin Lev",
+    "points": 37,
+    "national_teams": ["Soviet Union"],
+    "country_flag": {
+      "emoji": "🇷🇺",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg"
+    }
+  },
+  {
+    "ranking": 81,
+    "player": "Eric Cantona",
+    "points": 36,
+    "national_teams": ["France"],
+    "country_flag": {
+      "emoji": "🇫🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  },
+  {
+    "ranking": 82,
+    "player": "Thierry Henry",
+    "points": 35,
+    "national_teams": ["France"],
+    "country_flag": {
+      "emoji": "🇫🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    }
+  },
+  {
+    "ranking": 83,
+    "player": "Roberto Baggio",
+    "points": 34,
+    "national_teams": ["Italy"],
+    "country_flag": {
+      "emoji": "🇮🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    }
+  },
+  {
+    "ranking": 84,
+    "player": "Francesco Totti",
+    "points": 33,
+    "national_teams": ["Italy"],
+    "country_flag": {
+      "emoji": "🇮🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    }
+  },
+  {
+    "ranking": 85,
+    "player": "Fernando Redondo",
+    "points": 32,
+    "national_teams": ["Argentina"],
+    "country_flag": {
+      "emoji": "🇦🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    }
+  },
+  {
+    "ranking": 86,
+    "player": "Marek Hamšík",
+    "points": 31,
+    "national_teams": ["Slovakia"],
+    "country_flag": {
+      "emoji": "🇸🇰",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovakia.svg"
+    }
+  },
+  {
+    "ranking": 87,
+    "player": "Luis Aragonés",
+    "points": 30,
+    "national_teams": ["Spain"],
+    "country_flag": {
+      "emoji": "🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/a9/Flag_of_Spain.svg"
+    }
+  },
+  {
+    "ranking": 88,
+    "player": "Javier Zanetti",
+    "points": 29,
+    "national_teams": ["Argentina"],
+    "country_flag": {
+      "emoji": "🇦🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    }
+  },
+  {
+    "ranking": 89,
+    "player": "Gerard Piqué",
+    "points": 28,
+    "national_teams": ["Spain"],
+    "country_flag": {
+      "emoji": "🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/a9/Flag_of_Spain.svg"
+    }
+  },
+  {
+    "ranking": 90,
+    "player": "Carlos Tévez",
+    "points": 27,
+    "national_teams": ["Argentina"],
+    "country_flag": {
+      "emoji": "🇦🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    }
+  },
+  {
+    "ranking": 91,
+    "player": "Sergio Ramos",
+    "points": 26,
+    "national_teams": ["Spain"],
+    "country_flag": {
+      "emoji": "🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/a9/Flag_of_Spain.svg"
+    }
+  },
+  {
+    "ranking": 92,
+    "player": "David Villa",
+    "points": 25,
+    "national_teams": ["Spain"],
+    "country_flag": {
+      "emoji": "🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/a9/Flag_of_Spain.svg"
+    }
+  },
+  {
+    "ranking": 93,
+    "player": "Cristiano Ronaldo",
+    "points": 24,
+    "national_teams": ["Portugal"],
+    "country_flag": {
+      "emoji": "🇵🇹",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Flag_of_Portugal.svg"
+    }
+  },
+  {
+    "ranking": 94,
+    "player": "Sergio Agüero",
+    "points": 23,
+    "national_teams": ["Argentina"],
+    "country_flag": {
+      "emoji": "🇦🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    }
+  },
+  {
+    "ranking": 95,
+    "player": "Cesc Fàbregas",
+    "points": 22,
+    "national_teams": ["Spain"],
+    "country_flag": {
+      "emoji": "🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/a9/Flag_of_Spain.svg"
+    }
+  },
+  {
+    "ranking": 96,
+    "player": "Manuel Neuer",
+    "points": 21,
+    "national_teams": ["Germany"],
+    "country_flag": {
+      "emoji": "🇩🇪",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+    }
+  },
+  {
+    "ranking": 97,
+    "player": "Xavi Hernández",
+    "points": 20,
+    "national_teams": ["Spain"],
+    "country_flag": {
+      "emoji": "🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/a9/Flag_of_Spain.svg"
+    }
+  },
+  {
+    "ranking": 98,
+    "player": "David Beckham",
+    "points": 19,
+    "national_teams": ["England"],
+    "country_flag": {
+      "emoji": "🇬🇧",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_England.svg"
+    }
+  },
+  {
+    "ranking": 99,
+    "player": "Iker Casillas",
+    "points": 18,
+    "national_teams": ["Spain"],
+    "country_flag": {
+      "emoji": "🇪🇸",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/a9/Flag_of_Spain.svg"
+    }
+  },
+  {
+    "ranking": 100,
+    "player": "Thiago Silva",
+    "points": 17,
+    "national_teams": ["Brazil"],
+    "country_flag": {
+      "emoji": "🇧🇷",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1920px-Flag_of_Brazil.svg.png"
+    }
+  }
+]
