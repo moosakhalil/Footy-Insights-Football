@@ -355,11 +355,11 @@
   .nav-links {
     display: none;
   }
-  
+
   .menu-icon {
     display: block;
   }
-  
+
   .logo-image {
     height: 40px;
     transform: scale(1);
@@ -377,7 +377,7 @@
     width: 18px;
     height: 18px;
   }
-  
+
   .mobile-menu {
     top: 64px;
     padding: 10px;
@@ -397,7 +397,7 @@
   .logo-image {
     height: 35px;
   }
-  
+
   .icons {
     gap: 8px;
   }
@@ -411,7 +411,7 @@
     top: 55px;
     padding: 8px;
   }
-  
+
   .mobile-btn {
     font-size: 0.9rem;
     padding: 8px 10px;
