@@ -20,7 +20,7 @@ const PlayerInfo = () => {
       const options = {
         method: 'GET',
         headers: {
-          'x-rapidapi-key': '49ac784424msheef56e89e5f5466p12a64djsnca1bf499a111',
+          'x-rapidapi-key': '2aed715726msh246888ec46b9077p1e6798jsndd24f623590e',
           'x-rapidapi-host': 'divanscore.p.rapidapi.com'
         }
       };
@@ -60,7 +60,7 @@ const PlayerInfo = () => {
       const options = {
         method: 'GET',
         headers: {
-          'x-rapidapi-key': '49ac784424msheef56e89e5f5466p12a64djsnca1bf499a111',
+          'x-rapidapi-key': '2aed715726msh246888ec46b9077p1e6798jsndd24f623590e',
           'x-rapidapi-host': 'divanscore.p.rapidapi.com'
         }
       };
@@ -107,7 +107,7 @@ const PlayerInfo = () => {
         const options = {
           method: 'GET',
           headers: {
-            'x-rapidapi-key': '49ac784424msheef56e89e5f5466p12a64djsnca1bf499a111',
+            'x-rapidapi-key': '2aed715726msh246888ec46b9077p1e6798jsndd24f623590e',
             'x-rapidapi-host': 'divanscore.p.rapidapi.com'
           }
         };
@@ -143,7 +143,7 @@ const PlayerInfo = () => {
     const options = {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "49ac784424msheef56e89e5f5466p12a64djsnca1bf499a111 ",
+        "x-rapidapi-key": "2aed715726msh246888ec46b9077p1e6798jsndd24f623590e ",
         "x-rapidapi-host": "divanscore.p.rapidapi.com",
       },
     };

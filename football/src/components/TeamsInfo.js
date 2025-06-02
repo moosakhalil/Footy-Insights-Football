@@ -41,7 +41,7 @@ const TeamsInfo = () => {
       const options = {
         method: 'GET',
         headers: {
-          'x-rapidapi-key': '8a3ce71da3mshb7601f1a54e4fcep125815jsn93a79ed77f1e',
+          'x-rapidapi-key': 'ac8abc1111msh676ab332d96cad6p1213bajsnc1b0645ff63c',
           'x-rapidapi-host': 'divanscore.p.rapidapi.com'
         }
       };
@@ -79,28 +79,28 @@ const TeamsInfo = () => {
         fetch(`https://divanscore.p.rapidapi.com/teams/detail?teamId=${team.id}`, {
           method: 'GET',
           headers: {
-            'x-rapidapi-key': '8a3ce71da3mshb7601f1a54e4fcep125815jsn93a79ed77f1e',
+            'x-rapidapi-key': '6299bf682emsh35a20f918de5943p110b9bjsn5e19c1f55cf8',
             'x-rapidapi-host': 'divanscore.p.rapidapi.com'
           }
         }),
         fetch(`https://divanscore.p.rapidapi.com/teams/get-next-matches?teamId=${team.id}&pageIndex=0`, {
           method: 'GET',
           headers: {
-            'x-rapidapi-key': '8a3ce71da3mshb7601f1a54e4fcep125815jsn93a79ed77f1e',
+            'x-rapidapi-key': '2b4da91488mshd99db05ae0bc4d2p1b6b71jsnd5c329122bbe',
             'x-rapidapi-host': 'divanscore.p.rapidapi.com'
           }
         }),
         fetch(`https://divanscore.p.rapidapi.com/teams/get-statistics?teamId=${team.id}&tournamentId=7&seasonId=29267&type=overall`, {
           method: 'GET',
           headers: {
-            'x-rapidapi-key': '8a3ce71da3mshb7601f1a54e4fcep125815jsn93a79ed77f1e',
+            'x-rapidapi-key': '69b38cc8aemshebf12518e19eec0p1c2e55jsnff51e4f1e653',
             'x-rapidapi-host': 'divanscore.p.rapidapi.com'
           }
         }),
         fetch(`https://divanscore.p.rapidapi.com/teams/get-last-matches?teamId=${team.id}&pageIndex=0`, {
           method: 'GET',
           headers: {
-            'x-rapidapi-key': '8a3ce71da3mshb7601f1a54e4fcep125815jsn93a79ed77f1e',
+            'x-rapidapi-key': '3c52931893msh29061bfbbd02f7bp111042jsne9fc1ee372ae',
             'x-rapidapi-host': 'divanscore.p.rapidapi.com'
           }
         })

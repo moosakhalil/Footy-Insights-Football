@@ -25,7 +25,7 @@ const ManagerInfo = () => {
     const options = {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "2aed715726msh246888ec46b9077p1e6798jsndd24f623590e",
+        "x-rapidapi-key": "ac8abc1111msh676ab332d96cad6p1213bajsnc1b0645ff63c",
         "x-rapidapi-host": "sofascore.p.rapidapi.com",
       },
     };
@@ -83,7 +83,7 @@ const ManagerInfo = () => {
       const options = {
         method: 'GET',
         headers: {
-          'x-rapidapi-key': '2aed715726msh246888ec46b9077p1e6798jsndd24f623590e',
+          'x-rapidapi-key': '6299bf682emsh35a20f918de5943p110b9bjsn5e19c1f55cf8',
           'x-rapidapi-host': 'sofascore.p.rapidapi.com'
         }
       };

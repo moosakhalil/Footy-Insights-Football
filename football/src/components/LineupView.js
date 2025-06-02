@@ -13,7 +13,7 @@ const LineupView = ({ matchId, match, onBack, teamLogos, apiKey }) => {
 
   // Use the API key from props
   const API_HOST = 'allsportsapi2.p.rapidapi.com';
-  const API_KEY = '8a3ce71da3mshb7601f1a54e4fcep125815jsn93a79ed77f1e';
+  const API_KEY = 'e80515d439msha47810192b4fb37p10f06ejsn98dcefbf4aaf';
 
   const fetchLineupData = async (skipRetryIncrement = false) => {
     try {
@@ -586,6 +586,8 @@ const LineupView = ({ matchId, match, onBack, teamLogos, apiKey }) => {
   }
 
   if (error) {
+    // Show green box for empty response, red for other errors
+    const isEmptyResponse = error.toLowerCase().includes('empty response');
     return (
       <div className={`lineup-container ${theme === 'dark' ? 'dark-theme' : ''}`} data-theme={theme}>
         <div className="lineup-header">
@@ -594,14 +596,30 @@ const LineupView = ({ matchId, match, onBack, teamLogos, apiKey }) => {
           </button>
           <h2>Lineup Error</h2>
         </div>
-        <div className="error">
-          <AlertCircle size={32} />
-          <p>{error}</p>
-          <button onClick={() => fetchLineupData()}>
-            <RefreshCw size={16} />
-            Try Again
-          </button>
-        </div>
+        {isEmptyResponse ? (
+          <div style={{
+            background: '#d1fae5',
+            color: '#065f46',
+            border: '1px solid #10b981',
+            borderRadius: '10px',
+            padding: '24px',
+            margin: '32px auto',
+            textAlign: 'center',
+            maxWidth: '500px',
+            fontWeight: 600
+          }}>
+            This API is giving an empty response.
+          </div>
+        ) : (
+          <div className="error">
+            <AlertCircle size={32} />
+            <p>{error}</p>
+            <button onClick={() => fetchLineupData()}>
+              <RefreshCw size={16} />
+              Try Again
+            </button>
+          </div>
+        )}
       </div>
     );
   }

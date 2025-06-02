@@ -19,7 +19,7 @@ const MatchStatistics = ({ matchId, match, onBack, teamLogos }) => {
     const options = {
       method: 'GET',
       headers: {
-        'x-rapidapi-key': 'e80515d439msha47810192b4fb37p10f06ejsn98dcefbf4aaf',
+        'x-rapidapi-key': 'ac8abc1111msh676ab332d96cad6p1213bajsnc1b0645ff63c',
         'x-rapidapi-host': 'allsportsapi2.p.rapidapi.com'
       }
     };
@@ -296,6 +296,8 @@ const MatchStatistics = ({ matchId, match, onBack, teamLogos }) => {
   }
 
   if (error) {
+    // Show green box for empty response, red for other errors
+    const isEmptyResponse = error.toLowerCase().includes('empty response') || error.toLowerCase().includes('no statistics');
     return (
       <div className="match-stats-container">
         <div className="match-stats-header">
@@ -304,12 +306,28 @@ const MatchStatistics = ({ matchId, match, onBack, teamLogos }) => {
           </button>
           <h2>Match Statistics</h2>
         </div>
-        <div className="error">
-          <p>{error}</p>
-          <button className="refresh-button" onClick={fetchMatchStatistics}>
-            <RefreshCw size={16} /> Try Again
-          </button>
-        </div>
+        {isEmptyResponse ? (
+          <div style={{
+            background: '#d1fae5',
+            color: '#065f46',
+            border: '1px solid #10b981',
+            borderRadius: '10px',
+            padding: '24px',
+            margin: '32px auto',
+            textAlign: 'center',
+            maxWidth: '500px',
+            fontWeight: 600
+          }}>
+            This API is giving an empty response.
+          </div>
+        ) : (
+          <div className="error">
+            <p>{error}</p>
+            <button className="refresh-button" onClick={fetchMatchStatistics}>
+              <RefreshCw size={16} /> Try Again
+            </button>
+          </div>
+        )}
       </div>
     );
   }

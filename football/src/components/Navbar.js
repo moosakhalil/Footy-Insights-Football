@@ -279,7 +279,12 @@ const Navbar = () => {
         </div>
         
         {/* About Dropdown */}
-        <div className="dropdown-container" ref={aboutDropdownRef}>
+        <div 
+          className="dropdown-container" 
+          ref={aboutDropdownRef}
+          onMouseEnter={() => handleMouseEnter(setIsAboutDropdownOpen)}
+          onMouseLeave={() => handleMouseLeave(setIsAboutDropdownOpen)}
+        >
           <button 
             className={`nav-btn dropdown-btn ${isAboutDropdownOpen ? 'active' : ''}`}
             onClick={() => toggleDropdown(setIsAboutDropdownOpen, isAboutDropdownOpen)}

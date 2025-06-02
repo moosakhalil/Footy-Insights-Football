@@ -21,7 +21,7 @@ const LiveScores = () => {
   const [searchCategory, setSearchCategory] = useState('all'); // 'all', 'team', or 'league'
 
   // Use a single API key for consistency
-  const API_KEY = '  f57a1107c5msh9ffc70ba1880f52p177f1djsne01418d1e559';
+  const API_KEY = ' 3c52931893msh29061bfbbd02f7bp111042jsne9fc1ee372ae ';
   const API_HOST = 'allsportsapi2.p.rapidapi.com';
 
   const fetchLiveScores = async () => {

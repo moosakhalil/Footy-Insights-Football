@@ -21,7 +21,7 @@ const Results = () => {
   const [imageErrors, setImageErrors] = useState({});
 
   // API key for consistency
-  const API_KEY = '593ae17a30msha9ad81db8305048p1f1c99jsn2c6c7b2d5637';
+  const API_KEY = '24e7cf81b8mshce0c8b85cf4b07ap138c5fjsneb6b7fd0637f';
   const API_HOST = 'allsportsapi2.p.rapidapi.com';
 
   // Apply theme to document element for component-specific styling

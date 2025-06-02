@@ -34,7 +34,7 @@ const Fixtures = () => {
   const [imageErrors, setImageErrors] = useState({});
 
   // API key for consistency
-  const API_KEY = ' 593ae17a30msha9ad81db8305048p1f1c99jsn2c6c7b2d5637';
+  const API_KEY = ' 6299bf682emsh35a20f918de5943p110b9bjsn5e19c1f55cf8';
   const API_HOST = 'allsportsapi2.p.rapidapi.com';
 
   // Apply theme to document element for component-specific styling
@@ -110,7 +110,7 @@ const Fixtures = () => {
         const options = {
           method: 'GET',
           headers: {
-            'x-rapidapi-key': ' 593ae17a30msha9ad81db8305048p1f1c99jsn2c6c7b2d5637',
+            'x-rapidapi-key': ' 6299bf682emsh35a20f918de5943p110b9bjsn5e19c1f55cf8',
             'x-rapidapi-host': 'allsportsapi2.p.rapidapi.com'
           }
         };
@@ -222,7 +222,7 @@ const Fixtures = () => {
         const options = {
           method: 'GET',
           headers: {
-            'x-rapidapi-key': ' 593ae17a30msha9ad81db8305048p1f1c99jsn2c6c7b2d5637'
+            'x-rapidapi-key': ' 6299bf682emsh35a20f918de5943p110b9bjsn5e19c1f55cf8'
           }
         };
 
